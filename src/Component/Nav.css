@@ -1,0 +1,33 @@
+:root {
+    --Darkolive: #808000;
+    --olive: #a3a02b;
+    --navy: #001f3f;
+    --black: #111111;
+    --white: #ffffff;
+    --Redclay: #b7563d;
+    --tan: #e9b35f;
+    --burgundy: #7d4554;
+    --grey: #c0c0c0;
+}
+
+.navbar-brand {
+    font-size: 22px !important;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--Darkolive) !important;
+}
+
+#navbarSupportedContent ul li a {
+    font-size: 13px;
+    color: var(--olive);
+}
+
+#navbarSupportedContent ul li a span {
+    color: var(--Darkolive);
+}
+
+#navbarSupportedContent ul li button {
+    color: var(--burgundy);
+    border: 1px solid var(--burgundy);
+    border-radius: 3px;
+}
