@@ -1,0 +1,34 @@
+:root {
+    --Darkolive: #808000;
+    --olive: #a3a02b;
+    --navy: #001f3f;
+    --black: #111111;
+    --white: #ffffff;
+    --Redclay: #b7563d;
+    --tan: #e9b35f;
+    --burgundy: #7d4554;
+    --grey: #c0c0c0;
+}
+
+.icons-container {
+    position: fixed;
+    bottom: 0px;
+}
+
+.icons-container .icons {
+list-style-type: none;
+}
+
+.icons-container .icons li {
+    margin: 5px 0px;
+}
+
+.icons-container .icons::after {
+    content: '';
+    display: block;
+    width: 1px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 12px;
+    background-color: var(--Darkolive);
+}

@@ -1,7 +1,7 @@
 import React from 'react'
 import Nav from './Nav'
 import 'bootstrap-icons/font/bootstrap-icons.css'
-
+import './Home.css'
 
 function Home() {
   return (
@@ -9,11 +9,22 @@ function Home() {
         <Nav />
         <div className='icons-container'>
             <ul className='icons'>
-                <li><a href='#'><i className='bi bi-github'> </i></a></li>
-                <li><a href='#'><i className='bi bi-linkedin'> </i></a></li>
-                <li><a href='#'><i className='bi bi-envelope-at'></i></a></li>
-                <li><a href='#'><i className='bi bi-medium'></i></a></li>
+                <li><a href='#'>
+                  <i className='bi bi-github text-secondary' style={{fontSize: '25px'}}> </i>
+                  </a></li>
+                <li><a href='#'>
+                  <i className='bi bi-linkedin text-secondary' style={{fontSize: '25px'}}> </i>
+                  </a></li>
+                <li><a href='#'>
+                  <i className='bi bi-envelope-at text-secondary' style={{fontSize: '25px'}}></i>
+                  </a></li>
+                <li><a href='#'>
+                  <i className='bi bi-medium text-secondary' style={{fontSize: '25px'}}></i>
+                  </a></li>
             </ul>
+        </div>
+        <div className='amil-container'>
+          <p></p>
         </div>
     </div>
   )
