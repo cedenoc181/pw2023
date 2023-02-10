@@ -14,12 +14,12 @@
     font-size: 22px !important;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
-    color: var(--Darkolive) !important;
+    color: var(--olive) !important;
 }
 
 #navbarSupportedContent ul li a {
     font-size: 13px;
-    color: var(--olive);
+    color: var(--burgundy);
 }
 
 #navbarSupportedContent ul li a span {
@@ -27,7 +27,7 @@
 }
 
 #navbarSupportedContent ul li button {
-    color: var(--burgundy);
-    border: 1px solid var(--burgundy);
+    color: var(--olive);
+    border: 1px solid var(--olive);
     border-radius: 3px;
 }
