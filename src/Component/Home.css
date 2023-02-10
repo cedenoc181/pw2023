@@ -32,3 +32,44 @@ list-style-type: none;
     margin-left: 12px;
     background-color: var(--Darkolive);
 }
+
+.email-container {
+    position: fixed;
+    bottom: 30px; 
+    right: 15px;
+
+}
+
+.email-container p {
+    color: var(--burgundy);
+    writing-mode: vertical-lr;
+}
+
+.email-container p::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 90px;
+    margin-top: 10px;
+    margin-right: 3px;
+    background-color: var(--Darkolive);
+}
+
+main .hi-name  {
+   color: var(--white)
+}
+
+main h2 {
+    color: var(--olive);
+    font-size: 50px;
+ }
+
+ main .details {
+    color: var(--white);
+ }
+
+ main button {
+    border: 1px solid var(--Darkolive);
+    padding: 5px;
+    border-radius: 3px;
+ }

@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './Nav'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './Home.css'
+import Typewriter from 'typewriter-effect'
 
 function Home() {
   return (
@@ -23,9 +24,28 @@ function Home() {
                   </a></li>
             </ul>
         </div>
-        <div className='amil-container'>
-          <p></p>
+        <div className='email-container'>
+          <p>Christiancedenob.f@gmail.com</p>
         </div>
+        <main>
+          <p className='hi-name'>Hi, my name is</p>
+          <h1 className='text-white'>Christian Cedeno</h1>
+          <h2>
+            <Typewriter
+            options={{
+              autoStart: true, 
+              loop: true,
+              delay: 50,
+              strings: ['I am a Full Stack Software Engineer.', 'I use to fix people, Now I fix code!']
+            }}
+            />
+             </h2>
+             <p className='details'>
+             As a Full-Stack Software Engineer driven by fervor for crafting innovative, high-impact applications,<br />
+              I am passionate about using my skills to positively impact people's lives and make a difference in the world.
+             </p>
+             <button className="bg-transparent"> Check out More</button>
+        </main>
     </div>
   )
 }
