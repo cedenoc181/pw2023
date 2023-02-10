@@ -29,13 +29,13 @@ function Home() {
         </div>
         <main>
           <p className='hi-name'>Hi, my name is</p>
-          <h1 className='text-white'>Christian Cedeno</h1>
+          <h1 className='text-white'>Christian Cedeno.</h1>
           <h2>
             <Typewriter
             options={{
               autoStart: true, 
               loop: true,
-              delay: 50,
+              delay: 180,
               strings: ['I am a Full Stack Software Engineer.', 'I use to fix people, Now I fix code!']
             }}
             />
