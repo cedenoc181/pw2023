@@ -35,7 +35,7 @@ function Home() {
             options={{
               autoStart: true, 
               loop: true,
-              delay: 180,
+              delay: 120,
               strings: ['I am a Full Stack Software Engineer.', 'I use to fix people, Now I fix code!']
             }}
             />
