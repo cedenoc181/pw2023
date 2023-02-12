@@ -1,11 +1,21 @@
 import React from "react";
+import {useEffect} from 'react'
 import './About.css'
+ import Aos from 'aos' //this is for animation
+import 'aos/dist/aos.css'
+
 
 function About() {
+
+useEffect(() => {
+  Aos.init({duration: 1500})
+}, [])
+
+
   return (
     <div className="about bg-dark w-100 vh-100">
       <div className="row wrapper">
-        <div className='about-text col-12 col-md-6 col-lg-6 px-5'>
+        <div className='about-text col-12 col-md-6 col-lg-6 px-5' data-aos = 'fade-right'>
             <h3><span>01. </span>About me</h3>
             <p>
             Greetings! I am Christian, a passionate web developer with a natural talent for crafting top-notch web applications.
@@ -31,7 +41,7 @@ function About() {
             </div>
         </div>
         <div className='about_image col-12 col-md-6 col-lg-6
-        d-flex justify-content-center align-items-center'>
+        d-flex justify-content-center align-items-center' data-aos = 'fade-left'>
             <img src={require('../Images/me.png')} alt='me'/>
         </div>
       </div>
