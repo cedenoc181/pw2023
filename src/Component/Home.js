@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect'
 
 function Home() {
   return (
-    <div className='home bg-dark w-100 vh-100'>
+    <div className='home bg-dark w-100 vh-50'>
         <Nav />
         <div className='icons-container'>
             <ul className='icons'>

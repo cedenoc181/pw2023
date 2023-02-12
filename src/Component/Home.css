@@ -66,6 +66,7 @@ main {
 
 main .hi-name  {
    color: var(--olive);
+   font-size: 2vw;
    font-weight: bold;
 }
 

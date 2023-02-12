@@ -1,10 +1,11 @@
 import React from "react";
+import './About.css'
 
 function About() {
   return (
     <div className="about bg-dark w-100 vh-100">
-      <div className="row">
-        <div className='about_text'>
+      <div className="row wrapper">
+        <div className='about-text col-12 col-md-6 col-lg-6 px-5'>
             <h3><span>01. </span>About me</h3>
             <p>
             Greetings! I am Christian, a passionate web developer with a natural talent for crafting top-notch web applications.
@@ -16,7 +17,7 @@ function About() {
                 I recently finish creating a Physical therapy application that connect users to a database of physical therapist in NYC!
                 Here are a few technologies I've been working with recently: 
             </p>
-            <div className='row'>
+            <div className='row technology'>
                 <div className='col-6'>
                     <p><span>‣</span>JavaScript</p>
                     <p><span>‣</span>React.Js</p>
@@ -29,8 +30,9 @@ function About() {
                 </div>
             </div>
         </div>
-        <div className='about_image'>
-            <img src='' alt=''/>
+        <div className='about_image col-12 col-md-6 col-lg-6
+        d-flex justify-content-center align-items-center'>
+            <img src={require('../Images/me.png')} alt='me'/>
         </div>
       </div>
     </div>
