@@ -1,0 +1,43 @@
+:root {
+    --Darkolive: #808000;
+    --olive: #a3a02b;
+    --navy: #001f3f;
+    --black: #111111;
+    --white: #ffffff;
+    --Redclay: #b7563d;
+    --tan: #e9b35f;
+    --burgundy: #7d4554;
+    --grey: #c0c0c0;
+}
+
+.experience h3 span {
+    color: var(--olive);
+    font-size: 14px;
+}
+
+.tabs_detail h5 a {
+    color: var(--olive);
+    text-decoration: none;
+}
+
+.tabs_detail p, .tabs_detail .date {
+    color: var(--grey);
+    font-size: 15px;
+}
+
+.experience .nav .nav-link {
+    color: var(--grey) !important;
+    font-size: 14px !important;
+}
+
+.experience .nav .active {
+    background-color: var(--burgundy) !important ;
+    color: var(--grey) !important;
+    border-left: 2px solid var(--olive) !important;
+    border-radius: 0px !important;
+}
+
+
+.experience .nav .active:hover {
+    background-color: rgba(167, 186, 23, 0.6) !important;
+}
