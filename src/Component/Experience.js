@@ -11,7 +11,22 @@ function Experience() {
         </div>
      <div class="tab-content" id="v-pills-tabContent">
         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+            <h3>Student software Engineer @<a href='#' >Flatiron School</a></h3>
+            <span>Sep 2022 - January 2023</span>
+            <p>
+              <span>‣</span> 
 
+              </p>
+
+             <p>
+              <span>‣</span>
+
+              </p>
+
+            <p>
+              <span>‣</span>
+
+            </p>
         </div>
         {/* <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
         
