@@ -14,3 +14,29 @@
     color: var(--Darkolive) !important;
     font-size: 14px;
 }
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.card {
+    transition: 2s;
+}
+
+.card-body {
+    color: var(--grey);
+}
+
+.card-body button {
+    padding: 3px 10px;
+    font-size: 14px;
+    color: var(--grey);
+    border: 1px solid var(--olive);
+    border-radius: 3px;
+}
+
+.card-body button:hover {
+    background-color: rgba(62, 122, 130, 0.4) !important;
+    color: var(--olive);
+}
