@@ -1,11 +1,20 @@
 import React from "react";
 import './Experience.css'
 import "bootstrap/js/dist/tab";
+ import Aos from 'aos'; //this is for animation
+import 'aos/dist/aos.css';
+import {useEffect} from 'react'
 
 function Experience() {
+
+useEffect(() => {
+  Aos.init({duration: 1500})
+}, [])
+
+
   return (
     <div className="d-flex experience flex-column align-items-center w-100 vh-100 justify-content-center bg-dark">
-      <div className="w-50 text-white">
+      <div className="w-50 text-white" data-aos = 'zoom-in'>
         <h3>
           <span>02. </span> My experience
         </h3>
