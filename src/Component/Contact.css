@@ -9,3 +9,27 @@
     --burgundy: #7d4554;
     --grey: #c0c0c0;
 }
+
+.contact .tyv {
+    color: var(--white);
+}
+
+.span {
+    color: var(--olive);
+}
+
+.contact .detail {
+    color: var(--grey);  
+}
+
+.contact button {
+border: 1px solid var(--olive);
+color: var(--Redclay);
+padding: 5px 10px;
+border-radius: 4px;
+}
+
+.contact button:hover {
+    background-color: rgba(62, 122, 130, 0.4) !important;
+    color: var(--tan);
+}

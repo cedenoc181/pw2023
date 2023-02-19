@@ -19,15 +19,15 @@
 
 #navbarSupportedContent ul li a {
     font-size: 13px;
-    color: var(--burgundy);
+    color: var(--olive);
 }
 
 #navbarSupportedContent ul li a span {
-    color: var(--Darkolive);
+    color: var(--burgundy);
 }
 
 #navbarSupportedContent ul li button {
     color: var(--olive);
-    border: 1px solid var(--olive);
+    border: 1px solid var(--burgundy);
     border-radius: 3px;
 }
