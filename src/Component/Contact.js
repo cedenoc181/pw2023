@@ -3,7 +3,7 @@ import './Contact.css'
 
 function Contact() {
   return (
-  <div className="contact w-100 vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
+  <div id='contact' className="contact w-100 vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
     <div className='w-50 text-center'>
         <p className='tyv'><span className='span'>04. </span>Thank you for visiting!</p>
         <h1 className='text-white'>Feel free to reach out to me</h1>

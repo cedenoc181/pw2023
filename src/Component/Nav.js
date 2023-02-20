@@ -4,7 +4,7 @@ import 'bootstrap/js/dist/collapse'
 
 function Nav() {
   return (
-    <div className="container">
+    <div id='nav' className="container">
 <nav class="navbar navbar-expand-md bg-transparent navbar-dark">
   <a class="navbar-brand" href="#">Christian</a>
   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

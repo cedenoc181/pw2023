@@ -13,7 +13,7 @@ useEffect(() => {
 
 
   return (
-    <div className="d-flex experience flex-column align-items-center w-100 vh-100 justify-content-center bg-dark">
+    <div id="experience" className="d-flex experience flex-column align-items-center w-100 vh-100 justify-content-center bg-dark">
       <div className="w-50 text-white" data-aos = 'zoom-in'>
         <h3>
           <span>02. </span> My experience
