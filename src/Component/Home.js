@@ -10,16 +10,16 @@ function Home() {
         <Nav />
         <div className='icons-container'>
             <ul className='icons'>
-                <li><a href='#'>
+                <li><a href='https://github.com/cedenoc181'>
                   <i className='bi bi-github text-secondary' style={{fontSize: '25px'}}> </i>
                   </a></li>
-                <li><a href='#'>
+                <li><a href='https://www.linkedin.com/in/christian-cedeno-249187124/'>
                   <i className='bi bi-linkedin text-secondary' style={{fontSize: '25px'}}> </i>
                   </a></li>
-                <li><a href='#'>
-                  <i className='bi bi-envelope-at text-secondary' style={{fontSize: '25px'}}></i>
-                  </a></li>
-                <li><a href='#'>
+                {/* <li><a href='#'>
+                  <i className='bi bi-envelope text-secondary' style={{fontSize: '25px'}}></i>
+                  </a></li> */}
+                <li><a href='https://dev.to/cedsengine'>
                   <i className='bi bi-medium text-secondary' style={{fontSize: '25px'}}></i>
                   </a></li>
             </ul>
@@ -44,7 +44,7 @@ function Home() {
              As a Full-Stack Software Engineer driven by fervor for crafting innovative, high-impact applications,<br />
               I am passionate about using my skills to positively impact people's lives and make a difference in the world.
              </p>
-             <button className="bg-transparent"> Check out More</button>
+             <button className="bg-transparent"><a className='learn' href="#about">Learn more</a></button>
         </main>
     </div>
   )

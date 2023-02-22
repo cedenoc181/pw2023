@@ -31,7 +31,7 @@
 }
 
 .experience .nav .active {
-    background-color: var(--burgundy) !important ;
+    background-color: var(--Redclay) !important ;
     color: var(--grey) !important;
     border-left: 2px solid var(--olive) !important;
     border-radius: 0px !important;

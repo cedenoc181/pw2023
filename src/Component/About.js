@@ -13,7 +13,7 @@ useEffect(() => {
 
 
   return (
-    <div id='about' className="about bg-dark w-100 vh-100">
+    <div id='about' className="about bg-dark w-100 vh-1000" >
       <div className="row wrapper">
         <div className='about-text col-12 col-md-6 col-lg-6 px-5' data-aos = 'fade-right'>
             <h3><span>01. </span>About me</h3>

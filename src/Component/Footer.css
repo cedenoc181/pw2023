@@ -9,3 +9,7 @@
     --burgundy: #7d4554;
     --grey: #c0c0c0;
 }
+
+.footerEmail {
+    color: var(--olive);
+}

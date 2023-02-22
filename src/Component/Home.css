@@ -41,7 +41,7 @@ list-style-type: none;
 }
 
 .email-container p {
-    color: var(--burgundy);
+    color: var(--Redclay);
     writing-mode: vertical-lr;
 }
 
@@ -91,8 +91,17 @@ main h2 {
 
  main button:hover {
 background-color: var(--Darkolive) !important;
-color: var(--white)
+color: var(--Redclay)
  }
+
+
+.learn {
+    text-decoration: none;
+    color: #b7563d;
+}
+
+
+
 
  /* this hides css edits to smaller screens */
  @media only screen and (max-width: 768px) {

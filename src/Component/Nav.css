@@ -13,21 +13,22 @@
 .navbar-brand {
     font-size: 22px !important;
     font-weight: bolder;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
+    color: var(--Redclay) !important;
+}
+
+
+#navbarSupportedContent ul li a {
+    font-size: 13px !important;
     color: var(--olive) !important;
 }
 
-#navbarSupportedContent ul li a {
-    font-size: 13px;
-    color: var(--olive);
-}
-
 #navbarSupportedContent ul li a span {
-    color: var(--burgundy);
+    color: var(--Redclay) !important;
 }
 
 #navbarSupportedContent ul li button {
-    color: var(--olive);
-    border: 1px solid var(--burgundy);
-    border-radius: 3px;
+    color: var(--olive) !important;
+    border: 1px solid var(--Redclay) !important;
+    border-radius: 3px !important;
 }
