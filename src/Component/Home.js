@@ -42,9 +42,10 @@ function Home() {
              </h2>
              <p className='details'>
              As a Full-Stack Software Engineer driven by fervor for crafting innovative, high-impact applications,<br />
-              I am passionate about using my skills to positively impact people's lives and make a difference in the world.
+              I am passionate about using my skills to solve real world problems, contribute to the progress of society<br />
+              and ultimately make a difference in the world through my keyboard.
              </p>
-             <button className="bg-transparent"><a className='learn' href="#about">Learn more</a></button>
+             <button className="bg-transparent"><a className='learn' href="#about">Learn about me! </a></button>
         </main>
     </div>
   )

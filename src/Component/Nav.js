@@ -19,7 +19,7 @@ function Nav() {
         <a class="nav-link" href="#about"><span>01. </span>About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#experience"><span>02. </span>Services</a>
+        <a class="nav-link" href="#experience"><span>02. </span>Experience</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#projects"><span>03. </span>Projects</a>
@@ -28,7 +28,7 @@ function Nav() {
         <a class="nav-link" href="#contact"><span>04. </span>Contact</a>
       </li>
       <li class="nav-item">
-      <a class="btn btn-outline-secondary" role="button" href={require('../Images/resume.pdf')} download='resume.pdf'>Resume</a>
+      <a class="btn btn-outline-secondary" role="button" href={require('../resume.pdf')} download='resume.pdf'>Resume</a>
       </li>
     </ul>
   </div>
