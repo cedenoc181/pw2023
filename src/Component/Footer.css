@@ -13,3 +13,12 @@
 .footerEmail {
     color: var(--olive);
 }
+
+.icons-con {
+    justify-content: center;
+    text-align: center;
+}
+
+.ficons li{
+    display: inline;
+}
