@@ -31,7 +31,7 @@ function Footer() {
 </div>
 
 
-    <div id='footer' className='w-100 pb-2 d-flex flex-column justify-content-center align-items-center'>
+    <div id='footer' className='w-100 pb-2 d-flex flex-column justify-content-center text-align-center align-items-center'>
         <p className='footerEmail' >Christiancedenob.f@gmail.com</p>
     </div>
     </div>
