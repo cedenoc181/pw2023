@@ -2,9 +2,18 @@ import React from 'react'
 import './Contact.css'
 import Aos from 'aos'; //this is for animation
 import 'aos/dist/aos.css';
-import {useEffect} from 'react'
+import {useEffect, useState} from 'react'
 
 function Contact() {
+
+const [emailMe, setEmailMe] = useState(true)
+
+function handleClick() {
+  setEmailMe(!emailMe)
+  console.log('contact clicked', emailMe)
+}
+
+
 
   useEffect(() => {
     Aos.init({duration: 1500})
@@ -23,7 +32,22 @@ function Contact() {
           cross-functional teams. I am excited about the prospect of exploring new roles and finding 
           a position that aligns with my career goals and values.
         </p>
-        <button className='bg-transparent'>Say Hello!</button>
+        <button className='bg-transparent' onClick={handleClick}>Say Hello!</button>
+        {emailMe ? (null) : (
+          <div> 
+            <form className="text-white justify-content-center text-align-center mt-5">
+              <label>Name: </label>
+              <input className="bg-transparent" type="name" placeholder="Name here..."/>
+              <br />
+              <label>Email: </label>
+              <input className="bg-transparent" type="email" placeholder='Email here...'/>
+              <br />
+              <label>Message: </label>
+              <input className="bg-transparent" type="text" id="text-box" placeholder='message here...'/>
+            </form>
+          </div>
+
+        )}
     </div>
   </div>
   )
