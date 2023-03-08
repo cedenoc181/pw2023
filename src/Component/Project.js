@@ -9,11 +9,20 @@ import 'aos/dist/aos.css'
 function Project() {
 
   const [git, setGit] = useState(true);
+  const [git2, setGit2] = useState(true);
+  const [git3, setGit3] = useState(true);
 
 function handleClick() {
     setGit(!git)
 }
 
+function handleClick2() {
+  setGit2(!git2)
+}
+
+function handleClick3() {
+  setGit3(!git3)
+}
 
     useEffect(() => {
         Aos.init({duration: 1500})
@@ -58,7 +67,14 @@ function handleClick() {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <button className='bg-transparent'>Load More!</button>
+                <button className='bg-transparent' onClick={handleClick2}>{git2 ? "Load More!" : "Close"}</button>
+                {git2 ? (null) : (
+                <div className="link-con">
+                  <a className="project-link" href="null"><span>1. </span>Backend Repository</a>
+                  <br />
+                  <a className="project-link" href="null"><span>2. </span>Frontend Repository</a>
+                </div>
+                )}
               </div>
             </div>
           </div>
@@ -72,7 +88,14 @@ function handleClick() {
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <button className='bg-transparent'>Load More!</button>
+                <button className='bg-transparent' onClick={handleClick3}>{git3 ? "Load More!" : "Close"}</button>
+                {git3 ? (null) : (
+                <div className="link-con">
+                  <a className="project-link" href="null"><span>1. </span>Backend Repository</a>
+                  <br />
+                  <a className="project-link" href="null"><span>2. </span>Frontend Repository</a>
+                </div>
+                )}
               </div>
             </div>
           </div>
