@@ -90,8 +90,8 @@ main h2 {
  }
 
  main button:hover {
-background-color: var(--Darkolive) !important;
-color: var(--Redclay)
+    background-color: rgba(62, 122, 130, 0.4) !important;
+    color: var(--white) !important;
  }
 
 
