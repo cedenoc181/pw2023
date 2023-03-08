@@ -15,6 +15,19 @@
     font-size: 14px;
 }
 
+ a span {
+    color: var(--white);
+}
+
+.link-con {
+    margin-top: 10px !important;
+    padding: 10px;
+}
+.project-link {
+    text-decoration: none;
+    color: var(--tan);
+    
+}
 .card:hover {
     cursor: pointer;
     transform: scale(1.1);

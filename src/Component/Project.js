@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import "./Project.css";
 import {useEffect} from 'react'
 import Aos from 'aos' //this is for animation
@@ -7,6 +7,13 @@ import 'aos/dist/aos.css'
 
 
 function Project() {
+
+  const [git, setGit] = useState(true);
+
+function handleClick() {
+    setGit(!git)
+}
+
 
     useEffect(() => {
         Aos.init({duration: 1500})
@@ -30,7 +37,14 @@ function Project() {
                   access to top professionals that meet their needs. 
 
                 </p>
-                <button className='bg-transparent'>Load More!</button>
+                <button className='bg-transparent' onClick={handleClick}>{git ? "Load More!" : "Close"}</button>
+                {git ? (null) : (
+                <div className="link-con">
+                  <a className="project-link" href="https://github.com/cedenoc181/pt-connect-backend-"><span>1. </span>Backend Repository</a>
+                  <br />
+                  <a className="project-link" href="https://github.com/cedenoc181/Pt-connect-frontend-"><span>2. </span>Frontend Repository</a>
+                </div>
+                )}
               </div>
             </div>
           </div>
