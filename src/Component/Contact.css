@@ -63,5 +63,18 @@ margin-top: 9px;
     border-style:inset;   
     width: 360px;
     text-align: center;
+}
 
+.button {
+    margin-top: 10px;
+    border-style:inset;
+    border-color: #a3a02b;
+    border-radius: 6px;
+    width: 80px;
+    height: 35px;
+}
+
+.button:hover {
+    background-color: rgba(62, 122, 130, 0.4) !important;
+    color: var(--tan) !important;
 }

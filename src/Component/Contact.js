@@ -59,7 +59,7 @@ function sendEmail (e) {
               <br />
               <textarea className="bg-transparent text-white" rows="5" id="text-box" placeholder='message here...' name="message"/>
               <br />
-              <input className="bg-transparent text-white" type="submit" value="Send"/>
+              <input className="bg-transparent text-white button " type="submit" value="Send"/>
             </form>
           </div>
 
