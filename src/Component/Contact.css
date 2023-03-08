@@ -33,3 +33,35 @@ border-radius: 4px;
     background-color: rgba(62, 122, 130, 0.4) !important;
     color: var(--tan);
 }
+
+.item {
+  margin: 5px;
+}
+
+.message {
+    margin-top: 9px;
+
+}
+
+#text-box {
+     margin-top: 9px;
+    border: 4px var(--olive);
+    border-style:inset;
+    border-radius: 6px;
+    width: 450px;
+    height: 180px;
+}
+
+.labels {
+margin-top: 9px;
+}
+
+.item {
+    border-radius: 6px;
+     margin-top: 9px;
+     border: 2px var(--olive);
+    border-style:inset;   
+    width: 360px;
+    text-align: center;
+
+}

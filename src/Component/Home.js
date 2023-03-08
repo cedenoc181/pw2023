@@ -36,7 +36,7 @@ function Home() {
               autoStart: true, 
               loop: true,
               delay: 120,
-              strings: ['I am a Full Stack Software Engineer.', 'I use to fix people, Now I fix code!']
+              strings: ['I am a Full Stack Software Engineer.', 'Also virtual pest control.', 'hahaha get it because I get rid of bugs!']
             }}
             />
              </h2>
