@@ -31,7 +31,7 @@ function handleClick3() {
   return (
     <div id='projects' className="bg-dark w-100 projects">
       <div className="container">
-        <h3 className="px-5 pt-5 text-white">
+        <h3 className="px-5 text-white">
           <span>03. </span>My Projects
         </h3>
         <div class="row row-cols-1 row-cols-md-3 g-4 p-5 text-center">
