@@ -49,7 +49,7 @@ useEffect(() => {
               aria-labelledby="v-pills-home-tab"
             >
               <h5>
-                Student software Engineer <a href="#">@Flatiron School</a>
+                Student software Engineer <a href="https://flatironschool.com/welcome-to-flatiron-school/?utm_source=Google&utm_medium=ppc&utm_campaign=12728169839&utm_content=127574231184&utm_term=flatiron%20school&uqaid=513799628798&CjwKCAjw__ihBhADEiwAXEazJhhGFknmKW9KmfTLvxy1WNknOyr9SbEpLtLUrsmoxMNLL2AHYHmAAhoCtQoQAvD_BwE&gclid=CjwKCAjw__ihBhADEiwAXEazJhhGFknmKW9KmfTLvxy1WNknOyr9SbEpLtLUrsmoxMNLL2AHYHmAAhoCtQoQAvD_BwE">@Flatiron School</a>
               </h5>
               <span className='date'>Sep 2022 - January 2023</span>
               <p>

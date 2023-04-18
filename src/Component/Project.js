@@ -59,20 +59,20 @@ function handleClick3() {
           </div>
           <div class="col" data-aos = 'zoom-in'>
             <div className="card text-white">
-              <img src={require("../Images/comingSoon.png")} class="card-img-top" alt="Project 2" />
+              <img src={require("../Images/prohealth-logo.png")} class="card-img-top pb-3" alt="Project 2" />
               <div className="card-body bg-dark">
-                <h5 class="card-title">Coming soon</h5>
+                <h5 class="card-title">Pro Health and Fitness PT QR code</h5>
                 <p class="card-text">
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                  This is Vanilla JavaScript project I created and deployed for my job at Pro Health and Fitness physical therapy.
+                   When creating this application the intentions was to use technology to improve 
+                   the accessibility for patients to leave a review about their experience with us through QR code. 
                 </p>
                 <button className='bg-transparent' onClick={handleClick2}>{git2 ? "Load More!" : "Close"}</button>
                 {git2 ? (null) : (
                 <div className="link-con">
-                  <a className="project-link" href="null"><span>1. </span>Backend Repository</a>
+                  <a className="project-link" href="https://github.com/cedenoc181/Prohealth-qrCode.git"><span>1. </span>Repository</a>
                   <br />
-                  <a className="project-link" href="null"><span>2. </span>Frontend Repository</a>
+                  <a className="project-link" href="https://prohealthptot.netlify.app/"><span>2. </span>Website</a>
                 </div>
                 )}
               </div>
