@@ -1,5 +1,4 @@
 import './App.css';
-
 import Home from "./Component/Home"
 import About from './Component/About';
 import Experience from './Component/Experience';

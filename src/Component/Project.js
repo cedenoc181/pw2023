@@ -29,7 +29,7 @@ function handleClick3() {
       }, [])
 
   return (
-    <div id='projects' className="bg-dark w-100 projects">
+    <div id='projects' className="bg-dark w-100 vh-100 projects">
       <div className="container">
         <h3 className="px-5 text-white">
           <span>03. </span>My Projects
