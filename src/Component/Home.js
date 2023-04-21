@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from './Nav'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './Home.css'
+import Blog from "./Blog.js"
 import Typewriter from 'typewriter-effect'
 
 function Home() {
@@ -45,7 +46,8 @@ function Home() {
               I am passionate about using my skills to solve real world problems, contribute to the progress of society<br />
               and ultimately make a difference in the world through my keyboard.
              </p>
-             <button className="bg-transparent"><a className='learn' href="#about">Learn about me! </a></button>
+             <button className="bg-transparent"><a className='learn' href="#about">Learn about me </a></button>
+             <button className="bg-transparent learn">Latest blogs</button>
         </main>
     </div>
   )

@@ -39,7 +39,7 @@ function handleClick3() {
             <div className="card text-white">
               <img src={require("../Images/PTconnect.jpg")} class="card-img-top" alt="PTconnect" />
               <div className="card-body bg-dark">
-                <h5 class="card-title">PTconnect</h5>
+                <h5 class="card-title text-decoration-underline">PTconnect</h5>
                 <p class="card-text ">
                   A booking application for Physical therapist looking to grow their clientel in NYC. 
                   PTconnect holds a database of providers all over nyc. Providing users 
@@ -61,7 +61,7 @@ function handleClick3() {
             <div className="card text-white">
               <img src={require("../Images/prohealth-logo.png")} class="card-img-top pb-3" alt="Project 2" />
               <div className="card-body bg-dark">
-                <h5 class="card-title">Pro Health and Fitness PT QR code</h5>
+                <h5 class="card-title text-decoration-underline">Pro Health and Fitness PT QR code</h5>
                 <p class="card-text">
                   This is Vanilla JavaScript project I created and deployed for my job at Pro Health and Fitness physical therapy.
                    When creating this application the intentions was to use technology to improve 
@@ -82,7 +82,7 @@ function handleClick3() {
             <div className="card text-white">
               <img src={require("../Images/comingSoon.png")} class="card-img-top" alt="Project 3" />
               <div className="card-body bg-dark">
-                <h5 class="card-title">Coming soon</h5>
+                <h5 class="card-title text-decoration-underline">Coming soon</h5>
                 <p class="card-text">
                 This is a longer card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
