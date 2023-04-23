@@ -35,7 +35,7 @@ function sendEmail (e) {
   return (
   <div id='contact' className="contact w-100 vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
     <div className='w-50 text-center' data-aos ="flip-right">
-        <p className='tyv'><span className='span'>05. </span>Thank you for visiting!</p>
+        <p className='tyv'><span className='span'>04. </span>Thank you for visiting!</p>
         <h1 className='text-white'>Feel free to reach out to me</h1>
         <p className='detail'>I am actively seeking new opportunites in Software engineering positions where i can apply 
           and expand myu skills in programming, problem-solving, and teamwork. I am confiodent in my 

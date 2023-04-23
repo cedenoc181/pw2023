@@ -36,7 +36,7 @@ function Experience() {
               aria-controls="v-pills-home"
               aria-selected="true"
             >
-              Flatiron School
+            ProHealth & Fitness
             </button>
 
             <button
@@ -49,7 +49,7 @@ function Experience() {
               aria-controls="v-pills-profile"
               aria-selected="false"
             >
-              ProHealth & Fitness
+              Flatiron School
             </button>
             {/* <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
              <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button> */}
@@ -61,44 +61,66 @@ function Experience() {
               role="tabpanel"
               aria-labelledby="v-pills-home-tab"
             >
-              <h5>
-                Student software Engineer{" "}
+               <h5>
+                Freelance software Engineer{" "}
+                <a href="https://prohealthptot.com/">
+                @Pro Health and Fitness PT OT
+                </a>
+              </h5>
+              <span className="date">January 2023 - Present</span>
+              <p>
+              <br />
+                <span>‣</span>
+                Pro Health and Fitness is where I began implementing my skills that I learned from flatiron school to the test.
+               Pro health and fitness trusted me with creating web applications that help with business needs through technology 
+               one of my application I made helps physical and occupational therapist make accessing clinical review page simple and easy
+               through Qr codes.
+              </p>
+              <p>
+                <span>‣</span>
+                Pro health and fitess qr code is a application i build and designed using Javascript, html and tailwind css frame work.
+                This application is built to make the process of pulling up the companies google overview page simple and direct to the review page 
+                for the clinic is able to get patient feedback from their personal experience at a prohealth and fitness clinic.
+              </p>
+
+            </div>
+
+            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                      <h5>
+                student software Engineer{" "}
                 <a href="https://flatironschool.com/welcome-to-flatiron-school/?utm_source=Google&utm_medium=ppc&utm_campaign=12728169839&utm_content=127574231184&utm_term=flatiron%20school&uqaid=513799628798&CjwKCAjw__ihBhADEiwAXEazJhhGFknmKW9KmfTLvxy1WNknOyr9SbEpLtLUrsmoxMNLL2AHYHmAAhoCtQoQAvD_BwE&gclid=CjwKCAjw__ihBhADEiwAXEazJhhGFknmKW9KmfTLvxy1WNknOyr9SbEpLtLUrsmoxMNLL2AHYHmAAhoCtQoQAvD_BwE">
                   @Flatiron School
                 </a>
               </h5>
               <span className="date">Sep 2022 - January 2023</span>
               <p>
-                <span>‣</span>
-                During my time at Flatiron School, I had the opportunity to
-                immerse myself in a fast-paced 15-week program, where I learned
-                the ins and outs of JavaScript, React JS, Ruby and Ruby on
-                Rails.
+                <br />
+                   <span>‣</span>
+                   During my time at Flatiron School, I had the opportunity to
+                   immerse myself in a fast-paced 15-week program, where I learned
+                   the ins and outs of JavaScript, React JS, Ruby and Ruby on
+                   Rails.
               </p>
               <p>
-                <span>‣</span>
-                Through various group projects and individual assignments,I
-                honed my skills in building dynamic web applications, utilizing
-                React and Ruby on Rails to create both the front-end and
-                back-end of the application.
+                   <span>‣</span>
+                   Through various group projects and individual assignments,I
+                   honed my skills in building dynamic web applications, utilizing
+                   React and Ruby on Rails to create both the front-end and
+                   back-end of the application.
               </p>
-
               <p>
-                <span>‣</span>
-                By the end of the program, I felt confident in my abilities to
-                use these technologies in real-world situations and confident in
-                my abilities to learn new languages as well.
+                    <span>‣</span>
+                    By the end of the program, I felt confident in my abilities to
+                    use these technologies in real-world situations and confident in
+                    my abilities to learn new languages as well.
               </p>
-            </div>
-            {/* <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-        
         </div>
-        <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+        {/* <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
         
         </div>
         <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
         
-        </div> */}
+        </div>  */}
           </div>
         </div>
       </div>
@@ -107,3 +129,30 @@ function Experience() {
 }
 
 export default Experience;
+
+
+
+
+
+{/* <p>
+<br />
+  <span>‣</span>
+  During my time at Flatiron School, I had the opportunity to
+  immerse myself in a fast-paced 15-week program, where I learned
+  the ins and outs of JavaScript, React JS, Ruby and Ruby on
+  Rails.
+</p>
+<p>
+  <span>‣</span>
+  Through various group projects and individual assignments,I
+  honed my skills in building dynamic web applications, utilizing
+  React and Ruby on Rails to create both the front-end and
+  back-end of the application.
+</p>
+
+<p>
+  <span>‣</span>
+  By the end of the program, I felt confident in my abilities to
+  use these technologies in real-world situations and confident in
+  my abilities to learn new languages as well.
+</p> */}

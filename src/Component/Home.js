@@ -2,10 +2,12 @@ import React from 'react'
 import Nav from './Nav'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import './Home.css'
-import Blog from "./Blog.js"
 import Typewriter from 'typewriter-effect'
 
+
+
 function Home() {
+
   return (
     <div id='home' className='home bg-dark w-100 vh-100'>
         <Nav />
@@ -47,7 +49,8 @@ function Home() {
               and ultimately make a difference in the world through my keyboard.
              </p>
              <button className="bg-transparent"><a className='learn' href="#about">Learn about me </a></button>
-             <button className="bg-transparent learn">Latest blogs</button>
+             <button  className="bg-transparent learn"><a id="blog" href="https://dev.to/cedsengine/building-a-qr-code-generator-onj">Latest blogs</a></button>
+           
         </main>
     </div>
   )

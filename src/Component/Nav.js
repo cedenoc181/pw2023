@@ -24,11 +24,11 @@ function Nav() {
       <li class="nav-item">
         <a class="nav-link" href="#projects"><span>03. </span>Projects</a>
       </li>
-      <li class="nav-item">
+      {/* <li class="nav-item">
         <a class="nav-link" href="#microP"><span>04. </span>MicroProjects</a>
-      </li>
+      </li> */}
       <li class="nav-item">
-        <a class="nav-link" href="#contact"><span>05. </span>Contact</a>
+        <a class="nav-link" href="#contact"><span>04. </span>Contact</a>
       </li>
       <li class="nav-item">
       <a class="btn btn-outline-secondary" role="button" href={require('../resume.pdf')} download='resume.pdf'>Resume</a>

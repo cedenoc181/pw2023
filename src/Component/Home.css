@@ -103,7 +103,10 @@ main h2 {
 }
 
 
-
+#blog {
+    text-decoration: none;
+    color: #b7563d;
+}
 
  /* this hides css edits to smaller screens */
  @media only screen and (max-width: 768px) {
