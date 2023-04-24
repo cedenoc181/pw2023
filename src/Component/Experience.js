@@ -129,30 +129,3 @@ function Experience() {
 }
 
 export default Experience;
-
-
-
-
-
-{/* <p>
-<br />
-  <span>‣</span>
-  During my time at Flatiron School, I had the opportunity to
-  immerse myself in a fast-paced 15-week program, where I learned
-  the ins and outs of JavaScript, React JS, Ruby and Ruby on
-  Rails.
-</p>
-<p>
-  <span>‣</span>
-  Through various group projects and individual assignments,I
-  honed my skills in building dynamic web applications, utilizing
-  React and Ruby on Rails to create both the front-end and
-  back-end of the application.
-</p>
-
-<p>
-  <span>‣</span>
-  By the end of the program, I felt confident in my abilities to
-  use these technologies in real-world situations and confident in
-  my abilities to learn new languages as well.
-</p> */}
