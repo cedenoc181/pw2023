@@ -38,7 +38,7 @@ function sendEmail (e) {
         <p className='tyv'><span className='span'>04. </span>Thank you for visiting!</p>
         <h1 className='text-white'>Feel free to reach out to me</h1>
         <p className='detail'>I am actively seeking new opportunites in Software engineering positions where i can apply 
-          and expand myu skills in programming, problem-solving, and teamwork. I am confiodent in my 
+          and expand my skills in programming, problem-solving, and teamwork. I am confident in my 
           ability to contribute to any Software development project and work collaboratively with 
           cross-functional teams. I am excited about the prospect of exploring new roles and finding 
           a position that aligns with my career goals and values.

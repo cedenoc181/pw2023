@@ -24,7 +24,7 @@ useEffect(() => {
                I am continuously driven to expand my skill set and apply it in both my projects and personal blog, where I share my insights and understanding of new technologies.
             </p>
             <p>
-                I recently finish creating a Physical therapy application that connect users to a database of physical therapist in NYC!
+                I recently finish creating a Physical therapy application that stores clinical and administrative documents and allows the capibilities to edit, print and download PDF's!
                 Here are a few technologies I've been working with recently: 
             </p>
             <div className='row technology'>
