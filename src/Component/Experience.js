@@ -62,7 +62,7 @@ function Experience() {
               aria-labelledby="v-pills-home-tab"
             >
                <h5>
-                Freelance software Engineer{" "}
+                Frontend Software Developer{" "}
                 <a href="https://prohealthptot.com/">
                 @Pro Health and Fitness PT OT
                 </a>
@@ -71,16 +71,17 @@ function Experience() {
               <p>
               <br />
                 <span>‣</span>
-                Pro Health and Fitness is where I began implementing my skills that I learned from flatiron school to the test.
-               Pro health and fitness trusted me with creating web applications that help with business needs through technology 
-               one of my application I made helps physical and occupational therapist make accessing clinical review page simple and easy
-               through Qr codes.
+                At Pro Health and Fitness, I applied my skills from Flatiron School by creating web applications to meet business needs through technology. 
+                My first applications, which utilized QR codes, resulted in a 100% growth in Google reviews. 
+                The QR code application played a crucial role in streamlining the google review process for patients, 
+                leading to a significant increase in positive reviews for all 4 clinics under ProHealth and Fitness management.
               </p>
               <p>
                 <span>‣</span>
-                Pro health and fitess qr code is a application i build and designed using Javascript, html and tailwind css frame work.
-                This application is built to make the process of pulling up the companies google overview page simple and direct to the review page 
-                for the clinic is able to get patient feedback from their personal experience at a prohealth and fitness clinic.
+                I developed the Pro Health and Fitness PDF Repository as my second application, aiming to streamline and optimize document management for the organization.
+                 This innovative solution significantly expedited the authorization process for physical & occupational therapists by an impressive 45%. Additionally, 
+                it substantially reduced the administrative staff's time spent searching for PDFs, resulting in an astounding 80% decrease in search efforts. 
+                By leveraging this application, Pro Health and Fitness witnessed remarkable efficiency gains and improved workflow across the board.
               </p>
 
             </div>
