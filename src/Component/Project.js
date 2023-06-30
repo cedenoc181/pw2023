@@ -61,7 +61,7 @@ function handleClick3() {
             <div className="card text-white">
               <img src={require("../Images/prohealth-logo.png")} class="card-img-top pb-3" alt="Project 2" />
               <div className="card-body bg-dark">
-                <h5 class="card-title text-decoration-underline">Pro Health and Fitness PT QR code</h5>
+                <h5 class="card-title text-decoration-underline">Pro Health and Fitness PT OT QR code</h5>
                 <p class="card-text">
                   This is Vanilla JavaScript project I created and deployed for my job at Pro Health and Fitness physical therapy.
                    When creating this application the intentions was to use technology to improve 
@@ -80,20 +80,19 @@ function handleClick3() {
           </div>
           <div class="col" data-aos = 'fade-left'>
             <div className="card text-white">
-              <img src={require("../Images/comingSoon.png")} class="card-img-top" alt="Project 3" />
+              <img src={require("../Images/prohealth-logo.png")} class="card-img-top pb-3" alt="Project 3" />
               <div className="card-body bg-dark">
-                <h5 class="card-title text-decoration-underline">Coming soon</h5>
+                <h5 class="card-title text-decoration-underline">Pro Health and Fitness PT OT Repository</h5>
                 <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
+                React js application made to store PDF files used for clinical practice by physical therapist and administrative staff.
+                 This application use React, react router, react loader spinner and bootstrap. All PDF for clinical use in one place! Edit, print and save PDF's.
                 </p>
                 <button className='bg-transparent' onClick={handleClick3}>{git3 ? "Load More!" : "Close"}</button>
                 {git3 ? (null) : (
                 <div className="link-con">
-                  <a className="project-link" href="null"><span>1. </span>Backend Repository</a>
+                  <a className="project-link" href="https://github.com/cedenoc181/ProHealthRepository.git"><span>1. </span>Frontend Repository</a>
                   <br />
-                  <a className="project-link" href="null"><span>2. </span>Frontend Repository</a>
+                  <a className="project-link" href="null"><span>2. </span>website coming soon</a>
                 </div>
                 )}
               </div>
