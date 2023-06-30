@@ -16,7 +16,7 @@ function handleClick() {
 function sendEmail (e) {
   e.preventDefault();
 
-    emailjs.sendForm('service_63zzo4h', 'template_gxnvd2d', form.current, 'izBslw1ZpwZI6CIWx')
+    emailjs.sendForm('service_63zzo4h', 'template_gxnvd2d', form.current, 'L-ETeGXe38lmLimjM')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
