@@ -1,122 +1,160 @@
 :root {
-    --Darkolive: #808000;
-    --olive: #a3a02b;
-    --navy: #001f3f;
-    --black: #111111;
-    --white: #ffffff;
-    --Redclay: #b7563d;
-    --tan: #e9b35f;
-    --burgundy: #7d4554;
-    --grey: #c0c0c0;
+  --Darkolive: #808000;
+  --olive: #a3a02b;
+  --navy: #001f3f;
+  --black: #111111;
+  --white: #ffffff;
+  --Redclay: #b7563d;
+  --tan: #e9b35f;
+  --burgundy: #7d4554;
+  --grey: #c0c0c0;
 }
 
 .icons-container {
-    position: fixed;
-    bottom: 0px;
+  position: fixed;
+  bottom: 0px;
 }
 
 .icons-container .icons {
-list-style-type: none;
+  list-style-type: none;
 }
 
 .icons-container .icons li {
-    margin: 5px 0px;
+  margin: 5px 0px;
 }
 
 .icons-container .icons::after {
-    content: '';
-    display: block;
-    width: 1px;
-    height: 90px;
-    margin-top: 10px;
-    margin-left: 12px;
-    background-color: var(--Darkolive);
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin-top: 10px;
+  margin-left: 12px;
+  background-color: var(--Darkolive);
 }
 
 .email-container {
-    position: fixed;
-    bottom: 30px; 
-    right: 15px;
-
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
 }
 
 .email-container p {
-    color: var(--Redclay);
-    writing-mode: vertical-lr;
+  color: var(--Redclay);
+  writing-mode: vertical-lr;
 }
 
 .email-container p::after {
-    content: '';
-    display: inline-block;
-    width: 1px;
-    height: 90px;
-    margin-top: 10px;
-    margin-right: 3px;
-    background-color: var(--Darkolive);
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 90px;
+  margin-top: 10px;
+  margin-right: 3px;
+  background-color: var(--Darkolive);
 }
 
 main h1 {
-    font-size: 4vw;
+  font-size: 4vw;
 }
 
 main {
-    /* margin-top: 70px; */
-    margin-left: 120px;
+  height: 100vh;
+  margin-left: 120px;
 }
 
-main .hi-name  {
-   color: var(--olive);
-   font-size: 2vw;
-   font-weight: bold;
+main .hi-name {
+  color: var(--olive);
+  font-size: 2vw;
+  font-weight: bold;
 }
 
 main h2 {
-    color: var(--olive);
-    font-size: 50px;
-    font-size: 5vw;
- }
+  color: var(--olive);
+  font-size: 50px;
+  /* font-size: 5vw; */
+}
 
- main .details {
-    color: var(--grey);
-    margin-top: 10px;
- }
+main .details {
+  color: var(--grey);
+  margin-top: 10px;
+}
 
- main button {
-    display: inline-flex;
-    margin-right: 15px;
-    border: 2px solid var(--olive);
-    padding: 5px;
-    border-radius: 3px;
-    margin-top: 10px;
-    color: var(--olive);
- }
+.details {
+  font-size: 18px;
+}
 
- main button:hover {
-    background-color: rgba(62, 122, 130, 0.4) !important;
-    color: var(--white) !important;
- }
+main button {
+  display: inline-flex;
+  margin-right: 15px;
+  border: 2px solid var(--olive);
+  padding: 5px;
+  border-radius: 3px;
+  margin-top: 10px;
+  color: var(--olive);
+}
 
+main button:hover {
+  background-color: rgba(62, 122, 130, 0.4) !important;
+  color: var(--white) !important;
+}
 
 .learn {
-    text-decoration: none;
-    color: #b7563d;
+  text-decoration: none;
+  color: #b7563d;
 }
-
 
 #blog {
-    text-decoration: none;
-    color: #b7563d;
+  text-decoration: none;
+  color: #b7563d;
 }
 
- /* this hides css edits to smaller screens */
- @media only screen and (max-width: 768px) {
-    .icons-container, .email-container {
-        display: none;
-    }
-    main {
-        margin-top: 40px;
-        margin-left: 30px;
-        margin-right: 30px;
-    }
+/* this hides css edits to smaller screens */
+@media only screen and (max-width: 768px) {
+  .icons-container,
+  .email-container {
+    display: none;
+  }
+}
 
- }
+@media only screen and (max-width: 767px) {
+  .details {
+    font-size: 14px;
+  }
+  main .hi-name {
+    font-size: 1.5vw;
+  }
+  main h1 {
+    font-size: 3vw;
+  }
+  main h2 {
+    font-size: 35px;
+  }
+  .learn {
+    font-size: 10px;
+  }
+  #blog {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 565px) {
+    .details {
+      font-size: 10px;
+    }
+    main .hi-name {
+      font-size: 1.3vw;
+    }
+    main h1 {
+      font-size: 2vw;
+    }
+    main h2 {
+      font-size: 25px;
+    }
+    .learn {
+      font-size: 7px;
+    }
+    #blog {
+      font-size: 7px;
+    }
+  }

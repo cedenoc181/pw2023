@@ -35,3 +35,8 @@ width: fit-content;
 .technology span {
     color: var(--Darkolive);   
 }
+
+
+@media only screen and (max-width: 375px) {
+    
+}

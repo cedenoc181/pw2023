@@ -50,7 +50,6 @@ function Home() {
              </p>
              <button className="bg-transparent"><a className='learn' href="#about">Learn about me </a></button>
              <button  className="bg-transparent learn"><a id="blog" href="https://dev.to/cedsengine/building-a-qr-code-generator-onj">Latest blogs</a></button>
-           
         </main>
     </div>
   )
