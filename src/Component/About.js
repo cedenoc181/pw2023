@@ -41,7 +41,7 @@ useEffect(() => {
             </div>
         </div>
         <div className='about_image col-12 col-md-6 col-lg-6
-        d-flex justify-content-center align-items-center' data-aos = 'fade-left'>
+        d-flex justify-content-center align-items-center' data-aos = 'fade-down'>
             <img src={require('../Images/me.png')} alt='me'/>
         </div>
       </div>

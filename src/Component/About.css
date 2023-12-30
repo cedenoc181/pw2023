@@ -23,13 +23,21 @@
     color: var(--olive) !important;
     font-size: 14px;
 }
-
+.about .row {
+    max-width: 92%;
+}
 .about .wrapper {
-    margin-left: 120px;
+    margin-left: 100px;
+}
+
+.about_image {
+    max-width: 60%;
 }
 
 img {
-width: fit-content;
+width: 400px !important;
+height: 400px !important;
+margin-right: 160px;
 }
 
 .technology span {

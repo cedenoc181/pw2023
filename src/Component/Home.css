@@ -10,6 +10,11 @@
   --grey: #c0c0c0;
 }
 
+#home {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 .icons-container {
   position: fixed;
   bottom: 0px;
@@ -33,7 +38,7 @@
   background-color: var(--Darkolive);
 }
 
-.email-container {
+/* .email-container {
   position: fixed;
   bottom: 30px;
   right: 15px;
@@ -42,6 +47,7 @@
 .email-container p {
   color: var(--Redclay);
   writing-mode: vertical-lr;
+  margin-right: 50px;
 }
 
 .email-container p::after {
@@ -52,7 +58,7 @@
   margin-top: 10px;
   margin-right: 3px;
   background-color: var(--Darkolive);
-}
+} */
 
 main h1 {
   font-size: 4vw;
@@ -120,6 +126,7 @@ main button:hover {
 @media only screen and (max-width: 767px) {
   .details {
     font-size: 14px;
+    margin-right: 40px;
   }
   main .hi-name {
     font-size: 1.5vw;
