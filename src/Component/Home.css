@@ -139,7 +139,29 @@ main button:hover {
   main {
     height: 60vh !important;
   }
+
+  .details {
+    font-size: 18px !important;
+  }
+
+main .hi-name {
+  font-size: 2vw !important;
 }
+
+main h1 {
+  font-size: 5vw;
+}
+
+main h2 {
+  font-size: 60px;
+}
+
+}
+
+
+
+
+
 
 
 @media only screen and (max-width: 768px) {
