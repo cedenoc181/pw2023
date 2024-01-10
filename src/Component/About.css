@@ -45,6 +45,24 @@ margin-right: 160px;
 }
 
 
-/* @media only screen and (max-width: 375px) {
-    
-} */
+@media only screen and (max-width: 991px) {
+    img {
+        width: 350px !important;
+        height: 350px !important;
+        margin-bottom: 300px !important;
+        margin-left: 100px !important;
+    }
+
+    #about {
+        padding-top: 30px !important;
+    }
+
+    .about-p {
+        font-size: 15px !important;
+    }
+
+    .about-text h3 {
+       font-size: 25px !important;
+       padding-bottom: 5px !important;
+    }
+}

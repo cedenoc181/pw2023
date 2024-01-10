@@ -17,13 +17,13 @@ useEffect(() => {
       <div className="row wrapper">
         <div className='about-text col-12 col-md-6 col-lg-6 px-5' data-aos = 'fade-right'>
             <h3><span>01. </span>About me</h3>
-            <p>
+            <p class="about-p">
             Greetings! I am Christian, a passionate web developer with a natural talent for crafting top-notch web applications.
              I had the privilege of attending Flatiron School, where I underwent a comprehensive 15-week software engineering program.
               This intensive training not only honed my skills in front-end and back-end development but also solidified my foundation in web development.
                I am continuously driven to expand my skill set and apply it in both my projects and personal blog, where I share my insights and understanding of new technologies.
             </p>
-            <p>
+            <p class="about-p">
                 I recently finish creating a Physical therapy application that stores clinical and administrative documents and allows the capibilities to edit, print and download PDF's!
                 Here are a few technologies I've been working with recently: 
             </p>

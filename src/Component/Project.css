@@ -67,16 +67,27 @@
         width: 260px !important;
         height: 240px !important;
     }
+
+    .card {
+        width: 265px !important;
+        height: 100% !important;
+    }
 }
 
 
 @media only screen and (max-width: 991px) {
+
+ #projects {
+        height: 100vh !important;
+        padding-top: 30px !important;
+        bottom: 10px !important;
+    }
 .card{
     width: 200px !important;
-    height: 650px !important;
-}
+    height: 100% !important;
+    }
 
-    .card-img-top {
+ .card-img-top {
         width: 185px !important;
         height: 200px !important;
     }

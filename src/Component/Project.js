@@ -61,11 +61,10 @@ function handleClick3() {
             <div className="card text-white">
               <img src={require("../Images/prohealth-logo.png")} class="card-img-top pb-3" alt="Project 2" />
               <div className="card-body bg-dark">
-                <h5 class="card-title text-decoration-underline">Pro Health and Fitness PT OT QR code</h5>
+                <h5 class="card-title text-decoration-underline">Pro Health and Fitness QR code</h5>
                 <p class="card-text">
-                  This is Vanilla JavaScript project I created and deployed for my job at Pro Health and Fitness physical therapy.
-                   When creating this application the intentions was to use technology to improve 
-                   the accessibility for patients to leave a review about their experience with us through QR code. 
+                  This is JavaScript application I built and deployed for Pro Health and Fitness physical therapy.
+                   The intentions was to use Qr codes to improve the accessibility for patients to leave a review about their experience. 
                 </p>
                 <button className='bg-transparent' onClick={handleClick2}>{git2 ? "Load More!" : "Close"}</button>
                 {git2 ? (null) : (
@@ -85,7 +84,7 @@ function handleClick3() {
                 <h5 class="card-title text-decoration-underline">Pro Health and Fitness PT OT Repository</h5>
                 <p class="card-text">
                 React js application made to store PDF files used for clinical practice by physical therapist and administrative staff.
-                 This application use React, react router, react loader spinner and bootstrap. All PDF for clinical use in one place! Edit, print and save PDF's.
+                 This application use React, react router, react loader spinner and bootstrap.
                 </p>
                 <button className='bg-transparent' onClick={handleClick3}>{git3 ? "Load More!" : "Close"}</button>
                 {git3 ? (null) : (
