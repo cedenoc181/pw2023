@@ -34,7 +34,7 @@ function handleClick3() {
         <h3 className="px-5 text-white">
           <span>03. </span>My Projects
         </h3>
-        <div class="row row-cols-1 row-cols-md-3 g-4 p-5 text-center">
+        <div class="row row-cols-1 row-cols-md-3 g-5 p-5 text-center">
           <div class="col" data-aos = 'fade-right'>
             <div className="card text-white">
               <img src={require("../Images/PTconnect.jpg")} class="card-img-top" alt="PTconnect" />

@@ -54,6 +54,13 @@
     color: var(--tan);
 }
 
+.card-img-top {
+    width: 100% !important;
+}
+
+.card {
+    height: 100% !important;
+}
 
 @media only screen and (max-width: 1149px) {
     .card-img-top {
@@ -63,4 +70,14 @@
 }
 
 
-@media
+@media only screen and (max-width: 991px) {
+.card{
+    width: 200px !important;
+    height: 650px !important;
+}
+
+    .card-img-top {
+        width: 185px !important;
+        height: 200px !important;
+    }
+}
