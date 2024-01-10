@@ -13,7 +13,7 @@ useEffect(() => {
 
 
   return (
-    <div id='about' className="about bg-dark w-100 vh-100" >
+    <div id='about' className="about bg-dark vw-100 vh-100" >
       <div className="row wrapper">
         <div className='about-text col-12 col-md-6 col-lg-6 px-5' data-aos = 'fade-right'>
             <h3><span>01. </span>About me</h3>
@@ -35,13 +35,13 @@ useEffect(() => {
                 </div>
                 <div className='col-6'>
                     <p><span>‣</span>Ruby on Rails</p>
-                    <p><span>‣</span>HTML/CSS</p>
+                    <p><span>‣</span>Python</p>
                     <p><span>‣</span>OOP</p>
                 </div>
             </div>
         </div>
         <div className='about_image col-12 col-md-6 col-lg-6
-        d-flex justify-content-center align-items-center' data-aos = 'fade-down'>
+        d-flex justify-content-center align-items-center' data-aos = 'fade-right'>
             <img src={require('../Images/me.png')} alt='me'/>
         </div>
       </div>

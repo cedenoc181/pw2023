@@ -53,3 +53,14 @@
     background-color: rgba(62, 122, 130, 0.4) !important;
     color: var(--tan);
 }
+
+
+@media only screen and (max-width: 1149px) {
+    .card-img-top {
+        width: 260px !important;
+        height: 240px !important;
+    }
+}
+
+
+@media
