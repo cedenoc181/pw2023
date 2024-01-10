@@ -41,3 +41,18 @@
 .experience .nav .active:hover {
     background-color: rgba(167, 186, 23, 0.6) !important;
 }
+
+@media only screen and (max-width: 1024px) {
+    #experience {
+        height: 80vh!important;
+    }
+
+    .experience h3{
+      font-size: 30px !important;
+    }
+
+    p {
+        font-size: 16px !important;
+    }
+
+}

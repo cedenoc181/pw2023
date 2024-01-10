@@ -78,3 +78,13 @@ margin-top: 9px;
     background-color: rgba(62, 122, 130, 0.4) !important;
     color: var(--tan) !important;
 }
+
+/* Ipad pro view */
+@media only screen and (min-width: 1024px) {
+    #contact {
+        height: 70vh !important;
+        margin-bottom: 350px !important;
+    }
+
+
+}
