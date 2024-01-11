@@ -34,7 +34,7 @@ useEffect(() => {
                     <p><span>‣</span>Bootstrap</p>
                 </div>
                 <div className='col-6'>
-                    <p><span>‣</span>Ruby on Rails</p>
+                    <p><span>‣</span>Ruby & Rails</p>
                     <p><span>‣</span>Python</p>
                     <p><span>‣</span>OOP</p>
                 </div>
