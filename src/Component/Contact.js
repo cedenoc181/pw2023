@@ -34,7 +34,7 @@ function sendEmail (e) {
 
   return (
   <div id='contact' className="contact w-100 vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
-    <div className='w-50 text-center' data-aos ="flip-right">
+    <div className='w-50 text-center' data-aos ="flip-right" data-aos-delay="500" data-aos-duration="1500">
         <p className='tyv'><span className='span'>04. </span>Thank you for visiting!</p>
         <h1 className='text-white'>Feel free to reach out to me</h1>
         <p className='detail'>I am actively seeking new opportunites in Software engineering positions where i can apply 

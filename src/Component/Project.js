@@ -35,7 +35,7 @@ function handleClick3() {
           <span>03. </span>My Projects
         </h3>
         <div class="row row-cols-1 row-cols-md-3 g-5 p-5 text-center">
-          <div class="col" data-aos = 'fade-right'>
+          <div class="col" data-aos = 'fade-right' data-aos-delay="500" data-aos-duration="1500">
             <div className="card text-white">
               <img src={require("../Images/PTconnect.jpg")} class="card-img-top" alt="PTconnect" />
               <div className="card-body bg-dark">
@@ -57,7 +57,7 @@ function handleClick3() {
               </div>
             </div>
           </div>
-          <div class="col" data-aos = 'zoom-in'>
+          <div class="col" data-aos = 'zoom-in' data-aos-delay="1000" data-aos-duration="3000">
             <div className="card text-white">
               <img src={require("../Images/prohealth-logo.png")} class="card-img-top pb-3" alt="Project 2" />
               <div className="card-body bg-dark">

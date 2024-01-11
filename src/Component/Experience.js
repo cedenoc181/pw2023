@@ -15,7 +15,7 @@ function Experience() {
       id="experience"
       className="d-flex experience flex-column align-items-center w-100 vh-100 justify-content-center bg-dark"
     >
-      <div className="w-50 text-white" data-aos="zoom-in">
+      <div className="w-50 text-white" data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1500">
         <h3>
           <span>02. </span> My experience
         </h3>
