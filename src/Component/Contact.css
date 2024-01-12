@@ -24,6 +24,8 @@
 
 .contact button {
 border: 1px solid var(--olive);
+margin-top: 10px;
+border-style:inset;
 color: var(--Redclay);
 padding: 5px 10px;
 border-radius: 4px;
@@ -79,13 +81,23 @@ margin-top: 9px;
     color: var(--tan) !important;
 }
 
+
 /* Ipad pro view */
 @media only screen and (max-width: 1024px) {
     #contact {
-        padding-top: 100px;
-        height: 90vh !important;
+        height: 100vh !important;
         margin-bottom: 300px !important;
     }
 
+}
 
+@media only screen and (max-width: 768px) {
+    #contact {
+        padding-top: 200px !important;
+        height: 90vh !important;
+    }
+
+    .main-forum {
+        height: 50% !important;
+    }
 }

@@ -13,6 +13,8 @@ function handleClick() {
   setEmailMe(!emailMe)
   console.log('contact clicked', emailMe)
 }
+
+
 function sendEmail (e) {
   e.preventDefault();
 
@@ -34,18 +36,16 @@ function sendEmail (e) {
 
   return (
   <div id='contact' className="contact w-100 vh-100 bg-dark d-flex flex-column justify-content-center align-items-center">
-    <div className='w-50 text-center' data-aos ="flip-right" data-aos-delay="500" data-aos-duration="1500">
+    <div className='main-forum w-50 text-center' data-aos ="flip-right" data-aos-delay="500" data-aos-duration="1500">
         <p className='tyv'><span className='span'>04. </span>Thank you for visiting!</p>
-        <h1 className='text-white'>Feel free to reach out to me</h1>
-        <p className='detail'>I am actively seeking new opportunites in Software engineering positions where i can apply 
+      {emailMe ? ( <div><h1 className='text-white'>Feel free to reach out to me</h1><p className='detail'>I am actively seeking new opportunites in Software engineering positions where i can apply 
           and expand my skills in programming, problem-solving, and teamwork. I am confident in my 
           ability to contribute to any Software development project and work collaboratively with 
           cross-functional teams. I am excited about the prospect of exploring new roles and finding 
           a position that aligns with my career goals and values.
-        </p>
-        <button className='bg-transparent' onClick={handleClick}>Say Hello!</button>
-        {emailMe ? (null) : (
+        </p></div> ) : (
           <div className="container"> 
+              <h3 class="text-white">All inquiries here!</h3>
             <form ref={form} onSubmit={sendEmail}className="text-white justify-content-center text-align-center mt-5">
               <label className="labels">Name: </label>
               <br />
@@ -62,8 +62,12 @@ function sendEmail (e) {
               <input className="bg-transparent text-white button " type="submit" value="Send"/>
             </form>
           </div>
-
         )}
+        {emailMe? (<button className='bg-transparent' onClick={handleClick}>Say Hello!</button>)
+         :
+          (<button className='bg-transparent' onClick={handleClick}>close</button>) 
+          }
+
     </div>
   </div>
   )

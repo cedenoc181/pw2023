@@ -73,3 +73,10 @@
         height: 75vh!important;
     }
 }
+
+/* ipad mini */
+@media only screen and (max-width: 768px) {
+    #experience {
+        height: 120vh !important;
+    }
+}
