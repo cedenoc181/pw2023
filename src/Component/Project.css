@@ -96,8 +96,28 @@
     }
 }
 
+/* surface pro 7 */
+
+@media only screen and (min-width: 821px) and (max-width: 912px) {
+
+    .card{
+        width: 200px !important;
+        height: 100% !important;
+        box-sizing: border-box !important;
+        }
+        .card-img-top {
+            position: relative !important;
+            max-width: 195px !important;
+            height: 200px !important;
+            right: 100px !important;
+        }
+
+
+}
+
+
 /* Ipad air view */
-@media only screen and (max-width: 820px) {
+@media only screen and (max-width: 820px ) {
     .card{
         width: 200px !important;
         height: 100% !important;
