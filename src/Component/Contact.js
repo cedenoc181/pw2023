@@ -44,18 +44,18 @@ function sendEmail (e) {
           cross-functional teams. I am excited about the prospect of exploring new roles and finding 
           a position that aligns with my career goals and values.
         </p></div> ) : (
-          <div className="container"> 
-              <h3 class="text-white">All inquiries here!</h3>
+          <div className="
+          "> 
             <form ref={form} onSubmit={sendEmail}className="text-white justify-content-center text-align-center mt-5">
-              <label className="labels">Name: </label>
+              {/* <label className="labels">Name: </label> */}
               <br />
               <input className="bg-transparent item text-white" type="name" placeholder="Name here..." name="name"/>
               <br />
-              <label>Email: </label>
+              {/* <label>Email: </label> */}
               <br />
               <input className="bg-transparent item text-white" type="email" placeholder='Email here...' name="email"/>
               <br />
-              <label className="message">Message: </label>
+              {/* <label className="message">Message: </label> */}
               <br />
               <textarea className="bg-transparent text-white" rows="5" id="text-box" placeholder='message here...' name="message"/>
               <br />
