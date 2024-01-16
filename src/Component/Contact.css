@@ -94,9 +94,9 @@ h3 {
 /* Ipad pro view */
 @media only screen and (max-width: 1024px) {
     #contact {
-        height: 90vh !important;
+        height: 60vh !important;
         /* margin-bottom: 300px !important; */
-        Padding-bottom: 250px;
+        Padding-bottom: 170px;
     }
 
 }
