@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <div className='w-100 p-5 pb-2 bg-dark d-flex flex-column '>
+    <div id='footer' className='w-100 p-5 pb-2 bg-dark d-flex flex-column '>
 <div className='icons-con'>
 <ul className='ficons'>
     <li>
@@ -31,7 +31,7 @@ function Footer() {
 </div>
 
 
-    <div id='footer' className='w-100 pb-2 d-flex flex-column justify-content-center text-align-center align-items-center'>
+    <div  className='w-100 pb-2 d-flex flex-column justify-content-center text-align-center align-items-center'>
         <p className='footerEmail' >Christiancedenob.f@gmail.com</p>
     </div>
     </div>
