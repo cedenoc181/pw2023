@@ -89,6 +89,16 @@ margin-right: 160px;
     #about {
         height: 90vh !important;
     }
+}
 
+@media only screen and (max-width: 430px) {
+    .about-text {
+        margin-right: 50px;
+    }
 
+    #about {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+    }
 }
