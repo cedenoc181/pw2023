@@ -89,6 +89,10 @@
         display: flex;
         justify-content: flex-start;
     }
+    
+    .experience h3 {
+        font-size: 26px !important;
+    }
 
     .nav-container {
         margin-right: 150px !important;
