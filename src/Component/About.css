@@ -101,4 +101,8 @@ margin-right: 160px;
         justify-content: flex-end;
         padding-right: 10px;
     }
+
+    .about-text h3 {
+        font-size: 26px !important;
+    }
 }

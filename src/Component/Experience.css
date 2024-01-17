@@ -80,3 +80,15 @@
         height: 120vh !important;
     }
 }
+
+@media only screen and (max-width:430px) {
+    #experience {
+        height: 60vh;
+        padding-top: 360%;
+        width: 80%;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    
+}
