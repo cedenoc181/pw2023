@@ -44,7 +44,7 @@ margin-right: 160px;
     color: var(--Darkolive);   
 }
 
-
+/* IPAD PRO */
 @media only screen and (max-width: 1024px) {
     img {
         width: 300px !important;
@@ -91,18 +91,43 @@ margin-right: 160px;
     }
 }
 
+
+
+/* IPHONE 14 MAX */
 @media only screen and (max-width: 430px) {
-    .about-text {
-        margin-right: 50px;
+    #about {
+        height: 100vh !important;
     }
 
-    #about {
+    .about .wrapper {
         display: flex;
-        justify-content: flex-end;
-        padding-right: 10px;
+        align-items: start;
+        /* padding-right: 100px !important; */
+        margin-left: 25px;
+        width: 100% !important;
+   
+        }
+
+        .about-text {
+            position: relative;
+            height: 110% !important;
+       
+        }
+
+    .about-p {
+        display: flex;
+        text-align: center !important; 
+        width: 100%;
     }
 
     .about-text h3 {
         font-size: 26px !important;
+    }
+
+    img {
+        width: 200px !important;
+        height: 200px !important;
+        margin-right: 175px !important;
+        padding-bottom: 60px;
     }
 }
