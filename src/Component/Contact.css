@@ -130,3 +130,16 @@ h3 {
         width: 365px !important;
     }
 }
+
+@media only screen and (max-width: 430px) {
+    .item  {
+     width: 270px !important;
+    }
+
+    #text-box {
+        width: 275px !important;
+    }
+    .button {
+        margin-left: 50px !important;
+    }
+}

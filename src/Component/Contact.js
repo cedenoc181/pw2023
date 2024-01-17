@@ -44,8 +44,7 @@ function sendEmail (e) {
           cross-functional teams. I am excited about the prospect of exploring new roles and finding 
           a position that aligns with my career goals and values.
         </p></div> ) : (
-          <div className="
-          "> 
+          <div> 
             <form ref={form} onSubmit={sendEmail}className="text-white justify-content-center text-align-center mt-5">
               {/* <label className="labels">Name: </label> */}
               <br />
