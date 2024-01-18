@@ -40,11 +40,6 @@ border-radius: 4px;
   margin: 5px;
 }
 
-.message {
-    margin-top: 9px;
-
-}
-
 #text-box {
      margin-top: 9px;
     border: 4px var(--olive);
@@ -54,14 +49,9 @@ border-radius: 4px;
     height: 180px;
 }
 
-.labels {
-margin-top: 9px;
-}
-
 .item {
     border-radius: 6px;
-     margin-top: 9px;
-     border: 2px var(--olive);
+    border: 2px var(--olive);
     border-style:inset;   
     width: 360px;
     text-align: center;
@@ -80,16 +70,6 @@ margin-top: 9px;
     background-color: rgba(62, 122, 130, 0.4) !important;
     color: var(--tan) !important;
 }
-
-h3 {
-    padding-top: 45px;
-}
-
-/* label {
-    text-decoration: underline;
-    margin-top: 15px;
-} */
-
 
 /* Ipad pro view */
 @media only screen and (max-width: 1024px) {
@@ -132,8 +112,10 @@ h3 {
 }
 
 @media only screen and (max-width: 430px) {
+
     .item  {
      width: 270px !important;
+     margin-right: 200px;
     }
 
     #text-box {
@@ -142,4 +124,9 @@ h3 {
     .button {
         margin-left: 50px !important;
     }
+
+    .contact button {
+        /* margin-left: 55px; */
+    }
 }
+
