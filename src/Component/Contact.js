@@ -15,6 +15,7 @@ function handleClick() {
 }
 
 
+
 function sendEmail (e) {
   e.preventDefault();
 
@@ -25,6 +26,7 @@ function sendEmail (e) {
           console.log(error.text);
       });
       e.target.reset()
+      setEmailMe(!emailMe)
 }
 
 
@@ -46,7 +48,7 @@ function sendEmail (e) {
           a position that aligns with my career goals and values.
         </p></div> ) : (
           <div> 
-            <form ref={form} onSubmit={sendEmail}className="text-white justify-content-center text-align-center mt-5">
+            <form ref={form} onSubmit={sendEmail}className=" form text-white justify-content-center text-align-center mt-5 ">
               <h3 className="form-prompt">Expect a response within 24 hours! </h3>
               <br />
               <input className="bg-transparent item text-white" type="name" placeholder="Name here..." name="name"/>
@@ -65,8 +67,8 @@ function sendEmail (e) {
         )}
         {emailMe? (<button className='bg-transparent' onClick={handleClick}>Say Hello!</button>)
          :
-          (<button className='bg-transparent' onClick={handleClick}>close</button>) 
-          }
+          ("") 
+          };
 
     </div>
   </div>
