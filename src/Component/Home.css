@@ -223,13 +223,12 @@ main h2 {
 }
 
 
-/* iphone maz 14 */
+/* iphone max 14, XR,  pixel 7, S20 Ultra */
 @media only screen and (max-width: 430px) {
   main {
     width: 67%;
     padding-right: 15px !important;
     height: 65vh !important;
-
   }
 
   #home::-webkit-scrollbar {
