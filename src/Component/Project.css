@@ -147,11 +147,14 @@
     }
 
     .row {
-     margin-left: 30px !important;
-    }
+        box-sizing: border-box;
+        width: 100%;
+        }
 
     #projects {
         height: 170vh !important;
     }
+
+  
 
 }

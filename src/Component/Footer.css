@@ -10,9 +10,6 @@
     --grey: #c0c0c0;
 }
 
-#footer {
-    margin-bottom: 10%;
-}
 .footerEmail {
     color: var(--olive);
 }
