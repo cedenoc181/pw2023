@@ -15,7 +15,7 @@
 }
 
 #contact {
-    padding-top: 300px;
+    padding-top: 250px;
 }
 
 .contact .tyv {
@@ -78,6 +78,12 @@ border-radius: 4px;
 .button:hover {
     background-color: rgba(62, 122, 130, 0.4) !important;
     color: var(--tan) !important;
+}
+
+.form-prompt {
+    width: 100%;
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Ipad pro view */

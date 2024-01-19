@@ -26,7 +26,7 @@ function sendEmail (e) {
           console.log(error.text);
       });
       e.target.reset()
-      setEmailMe(!emailMe)
+      setTimeout(() => {setEmailMe(!emailMe);}, 500);
 }
 
 
@@ -49,7 +49,7 @@ function sendEmail (e) {
         </p></div> ) : (
           <div className='form-container'> 
             <form ref={form} onSubmit={sendEmail}className=" form text-white justify-content-center text-align-center mt-5 ">
-              <h3 className="form-prompt">Expect a response within 24 hours! </h3>
+              <h3 className="form-prompt">You can expect a response within 24 hours! </h3>
               <input className="bg-transparent item text-white" type="name" placeholder="Name here..." name="name"/>
               <input className="bg-transparent item text-white" type="email" placeholder='Email here...' name="email"/>
               <textarea className="bg-transparent text-white" rows="5" id="text-box" placeholder='message here...' name="message"/>
@@ -62,6 +62,8 @@ function sendEmail (e) {
          :
           ("") 
           };
+{/* <button className='bg-transparent' onClick={handleClick}>close</button> */}
+
 
     </div>
   </div>
