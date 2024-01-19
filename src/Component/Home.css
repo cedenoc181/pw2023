@@ -253,3 +253,21 @@ main h2 {
       font-size: 15px;
     }
   }
+
+  @media only screen and (max-width: 390px) {
+    #home::-webkit-scrollbar {
+      display: none;
+    }
+
+    #home {
+      height: 80vh;
+    }
+
+    main {
+      width: 75%;
+      padding-right: 10px !important;
+      margin-left: 75px !important;
+    }
+
+
+  }
