@@ -10,6 +10,10 @@
     --grey: #c0c0c0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .contact .tyv {
     color: var(--white);
 }
@@ -38,15 +42,16 @@ border-radius: 4px;
 
 .item {
   margin: 5px;
+  margin-top: 10px;
 }
 
 #text-box {
-     margin-top: 9px;
+     margin-top: 10px;
     border: 4px var(--olive);
     border-style:inset;
     border-radius: 6px;
     width: 450px;
-    height: 180px;
+    height: 150px;
 }
 
 .item {
@@ -115,19 +120,33 @@ border-radius: 4px;
 
     .item  {
      width: 270px !important;
-     margin-right: 200px;
     }
 
-    #text-box {
+    .contact #text-box {
         width: 275px !important;
     }
     .button {
         margin-left: 50px !important;
     }
 
-    .form h3 {
-        margin-left: 30px;
+    .main-forum {
+        margin-right: 50px !important;
     }
+
+    .email-prompt {
+        width: 250px !important;
+        margin-left: 15px;
+    }
+
+   .contact button {
+        margin-left: 60px;
+    }
+
+    .form h3  {
+       margin-left: 40px;
+    }
+
+
 
 }
 
