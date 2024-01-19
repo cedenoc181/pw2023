@@ -101,11 +101,9 @@ margin-right: 160px;
 
     .about .wrapper {
         display: flex;
-        align-items: start;
-        /* padding-right: 100px !important; */
+        align-items: flex-start;
         margin-left: 25px;
         width: 100% !important;
-   
         }
 
         .about-text {

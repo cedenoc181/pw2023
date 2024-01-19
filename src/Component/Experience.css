@@ -84,8 +84,6 @@
 @media only screen and (max-width:430px) {
     #experience {
         height: 70vh;
-        /* padding-top: 360%; */
-       
         display: flex;
         justify-content: flex-start;
     }
