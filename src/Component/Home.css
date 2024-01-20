@@ -277,4 +277,8 @@ main h2 {
       font-size: 4.7vw !important;
     }
 
+    .details {
+      font-size: 17px !important; 
+    }
+
   }

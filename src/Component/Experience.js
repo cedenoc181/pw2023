@@ -17,7 +17,7 @@ function Experience() {
     >
       <div className=" nav-container w-50 text-white" data-aos="zoom-out" data-aos-delay="500" data-aos-duration="1500">
         <h3>
-          <span>02. </span> My experience
+          <span>02. </span> My Experience
         </h3>
         <div class="d-flex mt-5 text-white">
           <div
@@ -71,17 +71,14 @@ function Experience() {
               <p>
               <br />
                 <span>‣</span>
-                At Pro Health and Fitness, I applied my skills from Flatiron School by creating web applications to meet business needs through technology. 
-                My first applications, which utilized QR codes, resulted in a 100% growth in Google reviews. 
-                The QR code application played a crucial role in streamlining the google review process for patients, 
-                leading to a significant increase in positive reviews for all 4 clinics under ProHealth and Fitness management.
-              </p>
+                At Pro Health and Fitness, I leveraged my Flatiron School skills to create web applications that met business needs.
+                 My QR code applications led to a 100% growth in Google reviews, 
+                streamlining the process and boosting positive reviews across all 4 clinics. </p>
               <p>
                 <span>‣</span>
-                I developed the Pro Health and Fitness PDF Repository as my second application, aiming to streamline and optimize document management for the organization.
-                 This innovative solution significantly expedited the authorization process for physical & occupational therapists by an impressive 45%. Additionally, 
-                it substantially reduced the administrative staff's time spent searching for PDFs, resulting in an astounding 80% decrease in search efforts. 
-                By leveraging this application, Pro Health and Fitness witnessed remarkable efficiency gains and improved workflow across the board.
+                I created the Pro Health and Fitness PDF Repository to enhance document management.
+                 The solution accelerated therapist authorization by 45%,
+                 and reduced administrative search efforts by an impressive 60%, leading to notable efficiency gains and improved workflow.
               </p>
 
             </div>
