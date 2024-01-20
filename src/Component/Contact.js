@@ -41,7 +41,8 @@ function sendEmail (e) {
     <div className='main-forum w-50 vh-100 text-center' data-aos ="flip-right" data-aos-delay="500" data-aos-duration="1500">
       {emailMe ? ( <div className="email-prompt">
         <p className='tyv'><span className='span'>04. </span>Thank you for visiting!</p>
-        <h1 className='text-white'>Feel free to reach out to me</h1><p className='detail'>I am actively seeking new opportunites in Software engineering positions where i can apply 
+        <h1 className='text-white'>Feel free to reach out to me</h1>
+        <p className='detail'>I am actively seeking new opportunites in Software engineering positions where i can apply 
           and expand my skills in programming, problem-solving, and teamwork. I am confident in my 
           ability to contribute to any Software development project and work collaboratively with 
           cross-functional teams. I am excited about the prospect of exploring new roles and finding 

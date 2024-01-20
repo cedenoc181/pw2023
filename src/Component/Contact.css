@@ -158,7 +158,29 @@ border-radius: 4px;
 }
 
 @media only screen and (max-width: 390px) {
+
     .main-forum {
         margin-right: 75px !important;
+    }
+
+    .contact button {
+        margin-left: 85px !important;
+    }
+
+    .button {
+        margin-left: 85px !important;
+    }
+
+    .form-prompt {
+        width: 215px;
+        margin-right: 70px;
+    }
+
+    .contact .detail {
+        font-size: 17px !important;
+    }
+
+    .tyv {
+        font-size: 16px !important;
     }
 }
