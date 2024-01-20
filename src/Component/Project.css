@@ -154,7 +154,8 @@
     #projects {
         height: 170vh !important;
     }
+}
 
-  
-
+@media only screen and (max-width: 390px) {
+    
 }

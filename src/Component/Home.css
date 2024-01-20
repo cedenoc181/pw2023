@@ -269,5 +269,12 @@ main h2 {
       margin-left: 75px !important;
     }
 
+    main .hi-name {
+      font-size: 3.6vw !important;
+    }
+
+    main h1 {
+      font-size: 4.7vw !important;
+    }
 
   }
