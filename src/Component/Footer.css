@@ -27,7 +27,6 @@
 @media only screen and (max-width: 1024px) {
     #footer {
         height: 50vh;
-        /* padding-bottom: 400px !important; */
     }
 }
 
@@ -35,7 +34,6 @@
 @media only screen and (max-width: 912px) {
     #footer {
         height: 60vh;
-        /* padding-bottom: 400px !important; */
     }
 }
 
@@ -44,7 +42,7 @@
 
     #footer {
         height: 50vh;
-        padding-bottom: 400px !important;
+        padding-bottom: 350px !important;
     }
 
     .footerEmail {
@@ -55,9 +53,18 @@
 @media only screen and (max-width: 768px) {
     #footer {
         height: 30vh;
+        padding-bottom: 350px !important;
     }
 }
 
 @media only screen and (max-width: 390px) {
-    
+    #footer {
+        padding-top: 200px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #footer {
+        padding-top: 100px !important;
+    }
 }
