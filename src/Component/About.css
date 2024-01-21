@@ -145,5 +145,7 @@ margin-right: 160px;
 }
 
 @media only screen and (max-width: 375px) {
-  
+    #about {
+        height: 180vh !important;
+    }
 }
