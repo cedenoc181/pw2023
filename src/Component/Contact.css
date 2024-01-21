@@ -159,6 +159,11 @@ border-radius: 4px;
 
 @media only screen and (max-width: 390px) {
 
+    #contact {
+        height: 110vh !important;
+        padding-top: 170px !important;
+    }
+
     .main-forum {
         margin-right: 75px !important;
     }
