@@ -164,5 +164,8 @@
 }
 
 @media only screen and (max-width: 375px) {
-  
+    #projects {
+        height: 315vh !important;
+        /* padding-bottom: 100px !important; */
+    }
 }
