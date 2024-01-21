@@ -196,3 +196,10 @@ border-radius: 4px;
         padding-top: 150px !important;
     }
 }
+
+@media only screen and (max-width: 360px) {
+   #contact {
+    padding-top: 120px !important;
+    height: 70vh !important;
+   } 
+}
