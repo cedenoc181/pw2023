@@ -80,7 +80,7 @@ function handleClick3() {
           </div>
           <div class="col" data-aos = 'fade-left'>
             <div className="card text-white">
-              <img src={require("../Images/lemoviehub.png")} class="card-img-top pb-3" alt="Project 3" />
+              <img src={require("../Images/Lemoviehublogo.png")} class="card-img-top pb-3" alt="Project 3" />
               <div className="card-body bg-dark">
                 <h5 class="card-title text-decoration-underline">LeMovie hub App</h5>
                 <p class="card-text">
