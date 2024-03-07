@@ -43,8 +43,8 @@ function handleClick3() {
                 <p class="card-text ">
                   A booking application for Physical therapist looking to grow their clientel in NYC. 
                   PTconnect holds a database of providers all over nyc. Providing users 
-                  access to top professionals that meet their needs. 
-
+                  access to top professionals that meet their needs.  
+                    Website luanch soon.
                 </p>
                 <button className='bg-transparent' onClick={handleClick}>{git ? "Load More!" : "Close"}</button>
                 {git ? (null) : (
@@ -64,7 +64,8 @@ function handleClick3() {
                 <h5 class="card-title text-decoration-underline">Pro Health and Fitness QR code</h5>
                 <p class="card-text">
                   This is JavaScript application I built and deployed for Pro Health and Fitness physical therapy.
-                   The intentions was to use Qr codes to improve the accessibility for patients to leave a review about their experience. 
+                   The intentions was to use Qr codes to improve the accessibility for patients to leave a review about their experience.
+                   Optomized for mobile devices. 
                 </p>
                 <button className='bg-transparent' onClick={handleClick2}>{git2 ? "Load More!" : "Close"}</button>
                 {git2 ? (null) : (
@@ -79,19 +80,19 @@ function handleClick3() {
           </div>
           <div class="col" data-aos = 'fade-left'>
             <div className="card text-white">
-              <img src={require("../Images/prohealth-logo.png")} class="card-img-top pb-3" alt="Project 3" />
+              <img src={require("../Images/lemoviehub.png")} class="card-img-top pb-3" alt="Project 3" />
               <div className="card-body bg-dark">
-                <h5 class="card-title text-decoration-underline">Pro Health and Fitness PT OT Repository</h5>
+                <h5 class="card-title text-decoration-underline">LeMovie hub App</h5>
                 <p class="card-text">
-                React js application made to store PDF files used for clinical practice by physical therapist and administrative staff.
-                 This application use React, react router, react loader spinner and bootstrap.
+                React js application for movie query. Have a movie in mind? type it in and API will spit something out!
+                 This application use React, google fonts and OMDB API. Optomized for mobile devices.
                 </p>
                 <button className='bg-transparent' onClick={handleClick3}>{git3 ? "Load More!" : "Close"}</button>
                 {git3 ? (null) : (
                 <div className="link-con">
-                  <a className="project-link" href="https://github.com/cedenoc181/ProHealthRepository.git"><span>1. </span>Frontend Repository</a>
+                  <a className="project-link" href="https://github.com/cedenoc181/LeMovieHub.git"><span>1. </span>Frontend Repository</a>
                   <br />
-                  <a className="project-link" href="null"><span>2. </span>website coming soon</a>
+                  <a className="project-link" href="https://lemoviehub.netlify.app/"><span>2. </span>website</a>
                 </div>
                 )}
               </div>
