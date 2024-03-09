@@ -31,7 +31,7 @@ function Nav() {
         <a class="nav-link" href="#contact"><span>04. </span>Contact</a>
       </li>
       <li class="nav-item">
-      <a class="btn btn-outline-secondary" role="button" href={require('../resume.pdf')} download='resume.pdf'>Resume</a>
+      <a class="btn btn-outline-secondary" role="button" href={require('../Christian-SWE-Resume.pdf')} download='resume.pdf'>Resume</a>
       </li>
     </ul>
   </div>
