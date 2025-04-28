@@ -1,3 +1,5 @@
+
+
 :root {
     --Darkolive: #808000;
     --olive: #a3a02b;
@@ -30,8 +32,21 @@
 }
 .card:hover {
     cursor: pointer;
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
+
+/* .slick-slide {
+    padding: 0 15px;
+  } */
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: white;
+  }
+  
+  .card-con {
+    padding: 15px 0 15px 5px;
+  }
 
 .card {
     transition: 2s;
@@ -61,6 +76,7 @@
 
 .card {
     height: 100% !important;
+    width: 90%;
 }
 
 @media only screen and (max-width: 1199px) {
