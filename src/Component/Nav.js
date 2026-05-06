@@ -30,9 +30,9 @@ function Nav() {
       <li class="nav-item">
         <a class="nav-link" href="#contact"><span>04. </span>Contact</a>
       </li>
-      <li class="nav-item">
+      {/* <li class="nav-item">
       <a class="btn btn-outline-secondary" role="button" href={require('../CC-SWE-2024.pdf')} download='resume.pdf'>Resume</a>
-      </li>
+      </li> */}
     </ul>
   </div>
 </nav>

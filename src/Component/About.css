@@ -1,151 +1,156 @@
-:root {
-    --Darkolive: #808000;
-    --olive: #a3a02b;
-    --navy: #001f3f;
-    --black: #111111;
-    --white: #ffffff;
-    --Redclay: #b7563d;
-    --tan: #e9b35f;
-    --burgundy: #7d4554;
-    --grey: #c0c0c0;
+#about {
+  padding: var(--section-py) 30px !important;
+  min-height: auto !important;
+  height: auto !important;
+}
+
+.about .wrapper {
+  max-width: var(--max-w);
+  margin: 0 auto !important;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  flex: 1;
+  min-width: 280px;
+  padding: 0 !important;
 }
 
 .about-text h3 {
-    color: var(--white)
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  color: var(--text-bright);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 30px;
 }
-.about-text {
-    color: var(--grey);
-    text-align: justify;
-}
-
 
 .about-text h3 span {
-    color: var(--olive) !important;
-    font-size: 14px;
-}
-.about .row {
-    max-width: 92%;
-}
-.about .wrapper {
-    margin-left: 100px;
+  color: var(--accent) !important;
+  font-family: var(--font-mono);
+  font-size: 1.1rem !important;
+  font-weight: 500;
 }
 
-.about_image {
-    max-width: 60%;
+.about-text h3::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--divider);
+  max-width: 200px;
+  margin-left: 12px;
 }
 
-img {
-width: 400px !important;
-height: 400px !important;
-margin-right: 160px;
+.about-text {
+  color: var(--text);
+  text-align: left !important;
+}
+
+.about-p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 18px;
+  color: var(--text);
+}
+
+.about-p .inline-link {
+  color: var(--accent);
+  border-bottom: 1px dashed var(--accent);
+}
+
+.about-p .inline-link:hover {
+  color: var(--warm);
+  border-bottom-color: var(--warm);
+}
+
+/* Tech list — chip-like grid */
+.technology {
+  margin-top: 8px !important;
+}
+
+.technology p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--text);
+  margin-bottom: 8px;
 }
 
 .technology span {
-    color: var(--Darkolive);   
+  color: var(--accent) !important;
+  font-size: 0.9rem;
 }
 
-/* IPAD PRO */
-@media only screen and (max-width: 1024px) {
-    img {
-        width: 300px !important;
-        height: 300px !important;
-        margin-left: 100px !important;
-    }
-
-    #about {
-        padding-top: 30px !important;
-        height: 70vh !important;
-    }
-
-    .about-p {
-        font-size: 16px !important;
-    }
-
-    .about-text h3 {
-       font-size: 30px !important;
-       padding-bottom: 5px !important;
-    }
+/* Photo column with framed offset */
+.about_image {
+  flex: 0 0 auto;
+  max-width: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-
-/* Ipad Air */
-@media only screen and (max-width: 820PX) {
-
-    img {
-        width: 250px !important;
-        height: 250px !important;
-        margin-left: 100px !important;
-    }
-
-    .about-p {
-        font-size: 15px !important;
-    }
-
-
+.about_image::before {
+  content: '';
+  position: absolute;
+  width: 280px;
+  height: 280px;
+  border: 2px solid var(--accent);
+  border-radius: 6px;
+  top: 18px;
+  left: 18px;
+  transition: all 0.25s ease;
+  z-index: 0;
 }
 
-/* Ipad mini */
-@media only screen and (max-width: 768px) {
-    #about {
-        height: 90vh !important;
-    }
+.about_image:hover::before {
+  top: 12px;
+  left: 12px;
 }
 
-
-
-/* IPHONE 14 MAX */
-@media only screen and (max-width: 430px) {
-    #about {
-        height: 100vh !important;
-    }
-
-    .about .wrapper {
-        display: flex;
-        align-items: flex-start;
-        margin-left: 25px;
-        width: 100% !important;
-        }
-
-        .about-text {
-            position: relative;
-            height: 110% !important;
-       
-        }
-
-    .about-p {
-        display: flex;
-        text-align: center !important; 
-        width: 100%;
-    }
-
-    .about-text h3 {
-        font-size: 26px !important;
-    }
-
-    img {
-        width: 200px !important;
-        height: 200px !important;
-        margin-right: 140px !important;
-        padding-bottom: 60px;
-    }
+.about_image img {
+  width: 280px !important;
+  height: 280px !important;
+  margin: 0 !important;
+  object-fit: cover;
+  border-radius: 6px;
+  filter: grayscale(80%) contrast(1) brightness(0.9);
+  transition: filter 0.3s ease, transform 0.3s ease;
+  position: relative;
+  z-index: 1;
+  background: var(--accent);
+  mix-blend-mode: normal;
 }
 
-@media only screen and (max-width: 390px) {
-    #about {
-        height: 145vh !important;
-    }
-
-    .about-p {
-        font-size: 17px !important;
-    }
-
-    .technology {
-        font-size: 17px !important;
-    }
+.about_image:hover img {
+  filter: grayscale(0%) brightness(1);
 }
 
-@media only screen and (max-width: 375px) {
-    #about {
-        height: 180vh !important;
-    }
+@media (max-width: 768px) {
+  #about {
+    padding: 80px 24px !important;
+  }
+
+  .about .wrapper {
+    flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .about_image img {
+    width: 220px !important;
+    height: 220px !important;
+  }
+
+  .about_image::before {
+    width: 220px;
+    height: 220px;
+  }
 }

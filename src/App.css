@@ -1,1 +1,129 @@
+:root {
+  /* Surfaces */
+  --bg: #0a0e1a;
+  --surface: #131826;
+  --surface-2: #1a2238;
 
+  /* Accents */
+  --accent: #64ffda;
+  --accent-soft: rgba(100, 255, 218, 0.1);
+  --accent-glow: rgba(100, 255, 218, 0.2);
+  --warm: #f97316;
+  --warm-soft: rgba(249, 115, 22, 0.12);
+
+  /* Borders */
+  --border: rgba(100, 255, 218, 0.14);
+  --border-hover: rgba(100, 255, 218, 0.45);
+  --divider: rgba(204, 214, 246, 0.08);
+
+  /* Text */
+  --text: #ccd6f6;
+  --text-muted: #8892b0;
+  --text-bright: #e6f1ff;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Menlo, monospace;
+
+  /* Layout */
+  --max-w: 1100px;
+  --section-py: 120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg) !important;
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Override Bootstrap's bg-dark globally */
+.bg-dark {
+  background-color: var(--bg) !important;
+}
+
+.text-white {
+  color: var(--text-bright) !important;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--warm);
+}
+
+button {
+  font-family: var(--font-sans);
+}
+
+/* Section heading utility — used by 01./02./03./04. headings */
+.section-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 700;
+  color: var(--text-bright);
+  margin-bottom: 50px;
+  letter-spacing: -0.02em;
+}
+
+.section-heading .num {
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.section-heading::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--divider);
+  max-width: 280px;
+  margin-left: 12px;
+}
+
+/* Smooth scroll spacing under fixed nav */
+section, [id] {
+  scroll-margin-top: 80px;
+}
+
+/* Selection */
+::selection {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+
+body::-webkit-scrollbar-thumb {
+  background: var(--surface-2);
+  border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background: var(--border-hover);
+}

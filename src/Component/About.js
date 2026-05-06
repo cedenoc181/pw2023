@@ -18,25 +18,32 @@ useEffect(() => {
         <div className='about-text col-12 col-md-6 col-lg-6 px-5' data-aos = 'zoom-in-up' data-aos-delay="500" data-aos-duration="1500">
             <h3><span>01. </span>About me</h3>
             <p class="about-p">
-            Greetings! I am Christian, a passionate web developer with a natural talent for crafting top-notch web applications.
-             I had the privilege of attending Flatiron School, where I underwent a comprehensive 15-week software engineering program.
-              This intensive training not only honed my skills in front-end and back-end development but also solidified my foundation in web development.
-               I am continuously driven to expand my skill set and apply it in both my projects and personal blog, where I share my insights and understanding of new technologies.
+            I'm Christian — founder and lead engineer at <a className='inline-link' href='https://sandlotpicks.com'>Sandlotpicks.com</a>,
+             a machine-learning platform that predicts MLB batter and pitcher prop outcomes. I started Sandlotpicks to combine
+              two things I care about: baseball and software that solves real problems. I designed the data pipeline, trained
+               the models, built the API, and shipped the product end-to-end.
             </p>
             <p class="about-p">
-                I recently finish creating a Physical therapy application that stores clinical and administrative documents and allows the capibilities to edit, print and download PDF's!
-                Here are a few technologies I've been working with recently: 
+                My background is full-stack — I trained at Flatiron School and previously built clinical document and
+                 review tools at Pro Health and Fitness. Today I spend most of my time on Python, FastAPI, and ML model
+                  iteration, with a React frontend layered on top. Open to conversations about engineering roles,
+                   collaborations, or Sandlotpicks itself.
+            </p>
+            <p class="about-p">
+                Tech I work with day-to-day:
             </p>
             <div className='row technology'>
                 <div className='col-6'>
-                    <p><span>‣</span>JavaScript</p>
-                    <p><span>‣</span>React.Js</p>
-                    <p><span>‣</span>Bootstrap</p>
+                    <p><span>‣</span>Python</p>
+                    <p><span>‣</span>FastAPI</p>
+                    <p><span>‣</span>PostgreSQL</p>
+                    <p><span>‣</span>scikit-learn</p>
                 </div>
                 <div className='col-6'>
-                    <p><span>‣</span>Ruby & Rails</p>
-                    <p><span>‣</span>Python</p>
-                    <p><span>‣</span>OOP</p>
+                    <p><span>‣</span>XGBoost</p>
+                    <p><span>‣</span>pandas</p>
+                    <p><span>‣</span>React.Js</p>
+                    <p><span>‣</span>JavaScript</p>
                 </div>
             </div>
         </div>

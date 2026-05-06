@@ -28,13 +28,26 @@ function Experience() {
           >
             <button
               class="nav-link active"
+              id="v-pills-sandlot-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#v-pills-sandlot"
+              type="button"
+              role="tab"
+              aria-controls="v-pills-sandlot"
+              aria-selected="true"
+            >
+              Sandlotpicks
+            </button>
+
+            <button
+              class="nav-link"
               id="v-pills-home-tab"
               data-bs-toggle="pill"
               data-bs-target="#v-pills-home"
               type="button"
               role="tab"
               aria-controls="v-pills-home"
-              aria-selected="true"
+              aria-selected="false"
             >
             ProHealth & Fitness
             </button>
@@ -51,12 +64,43 @@ function Experience() {
             >
               Flatiron School
             </button>
-            {/* <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
-             <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button> */}
           </div>
           <div class="tab-content tabs_detail ms-3" id="v-pills-tabContent">
             <div
               class="tab-pane fade show active"
+              id="v-pills-sandlot"
+              role="tabpanel"
+              aria-labelledby="v-pills-sandlot-tab"
+            >
+              <h5>
+                Founder & Software Engineer{" "}
+                <a href="https://sandlotpicks.com">
+                  @Sandlotpicks.com
+                </a>
+              </h5>
+              <span className="date">2025 - Present</span>
+              <p>
+                <br />
+                <span>‣</span>
+                Founded Sandlotpicks, a machine-learning platform that predicts MLB batter
+                 and pitcher prop outcomes (total bases, RBIs, hits, home runs, strikeouts,
+                 earned runs, pitcher outs) using historical game logs and matchup-specific features.
+              </p>
+              <p>
+                <span>‣</span>
+                Built the full data + ML pipeline in Python: ingestion ETL, rolling-metric
+                 feature engineering, model training and comparison across Random Forest and
+                 XGBoost, and daily automated re-training and prediction jobs.
+              </p>
+              <p>
+                <span>‣</span>
+                Stack: Python, FastAPI, PostgreSQL, SQLAlchemy, scikit-learn, XGBoost, pandas,
+                 numpy, joblib. Frontend in React. Designed every layer end-to-end.
+              </p>
+            </div>
+
+            <div
+              class="tab-pane fade"
               id="v-pills-home"
               role="tabpanel"
               aria-labelledby="v-pills-home-tab"
@@ -67,26 +111,27 @@ function Experience() {
                 @Pro Health and Fitness PT OT
                 </a>
               </h5>
-              <span className="date">January 2023 - Present</span>
+              <span className="date">January 2023 - 2025</span>
               <p>
               <br />
                 <span>‣</span>
-                At Pro Health and Fitness, I leveraged my Flatiron School skills to create web applications that met business needs.
-                 My QR code applications led to a 100% growth in Google reviews, 
-                streamlining the process and boosting positive reviews across all 4 clinics. </p>
+                Built web applications that met real business needs at a 4-clinic physical
+                 therapy practice. My QR code review tool drove a 100% growth in Google reviews
+                 across all clinics by streamlining the patient feedback flow.
+              </p>
               <p>
                 <span>‣</span>
-                I created the Pro Health and Fitness PDF Repository to enhance document management.
-                 The solution accelerated therapist authorization by 45%,
-                 and reduced administrative search efforts by an impressive 60%, leading to notable efficiency gains and improved workflow.
+                Created the Pro Health and Fitness PDF Repository to centralize clinical
+                 document management. The system accelerated therapist authorization by 45%
+                 and cut administrative search effort by 60%.
               </p>
 
             </div>
 
             <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                       <h5>
-                student software Engineer{" "}
-                <a href="https://flatironschool.com/welcome-to-flatiron-school/?utm_source=Google&utm_medium=ppc&utm_campaign=12728169839&utm_content=127574231184&utm_term=flatiron%20school&uqaid=513799628798&CjwKCAjw__ihBhADEiwAXEazJhhGFknmKW9KmfTLvxy1WNknOyr9SbEpLtLUrsmoxMNLL2AHYHmAAhoCtQoQAvD_BwE&gclid=CjwKCAjw__ihBhADEiwAXEazJhhGFknmKW9KmfTLvxy1WNknOyr9SbEpLtLUrsmoxMNLL2AHYHmAAhoCtQoQAvD_BwE">
+                Student Software Engineer{" "}
+                <a href="https://flatironschool.com/">
                   @Flatiron School
                 </a>
               </h5>
@@ -94,31 +139,21 @@ function Experience() {
               <p>
                 <br />
                    <span>‣</span>
-                   During my time at Flatiron School, I had the opportunity to
-                   immerse myself in a fast-paced 15-week program, where I learned
-                   the ins and outs of JavaScript, React JS, Ruby and Ruby on
-                   Rails.
+                   Completed a 15-week immersive software engineering program covering
+                   JavaScript, React, Ruby, and Ruby on Rails.
               </p>
               <p>
                    <span>‣</span>
-                   Through various group projects and individual assignments,I
-                   honed my skills in building dynamic web applications, utilizing
-                   React and Ruby on Rails to create both the front-end and
-                   back-end of the application.
+                   Built dynamic full-stack web applications across multiple group and
+                   individual projects, learning to ship features end-to-end.
               </p>
               <p>
                     <span>‣</span>
-                    By the end of the program, I felt confident in my abilities to
-                    use these technologies in real-world situations and confident in
-                    my abilities to learn new languages as well.
+                    Graduated confident in my ability to learn new languages and frameworks
+                    quickly — a skill that paid off when picking up Python, FastAPI, and ML
+                    tooling for Sandlotpicks.
               </p>
         </div>
-        {/* <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
-        
-        </div>
-        <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
-        
-        </div>  */}
           </div>
         </div>
       </div>

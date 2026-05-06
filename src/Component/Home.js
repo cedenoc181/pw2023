@@ -19,9 +19,6 @@ function Home() {
                 <li><a href='https://www.linkedin.com/in/christian-cedeno-249187124/'>
                   <i className='bi bi-linkedin text-secondary' style={{fontSize: '25px'}}> </i>
                   </a></li>
-                {/* <li><a href='#'>
-                  <i className='bi bi-envelope text-secondary' style={{fontSize: '25px'}}></i>
-                  </a></li> */}
                 <li><a href='https://dev.to/cedsengine'>
                   <i className='bi bi-medium text-secondary' style={{fontSize: '25px'}}></i>
                   </a></li>
@@ -31,25 +28,34 @@ function Home() {
           <p>Christiancedenob.f@gmail.com</p>
         </div>
         <main>
+          <div className='founder-pill'>
+            <span className='pill-dot'></span>
+            FOUNDER · SANDLOTPICKS.COM
+          </div>
           <p className='hi-name'>Hi, my name is</p>
           <h1 className='text-white'>Christian Cedeno.</h1>
           <h2>
             <Typewriter
             options={{
-              autoStart: true, 
+              autoStart: true,
               loop: true,
               delay: 120,
-              strings: ['I am a Full Stack Software Engineer.', 'I build things with my keyboard.', 'Welcome to my website!']
+              strings: [
+                'I am the Founder of Sandlotpicks.com.',
+                'I build AI/ML-powered sports prediction tools.',
+                'Founder & Software Engineer.'
+              ]
             }}
             />
              </h2>
              <p className='details'>
-             As a Full-Stack Software Engineer driven by fervor for crafting innovative, high-impact applications,<br />
-              I am passionate about using my skills to solve real world problems, contribute to the progress of society<br />
-              and ultimately make a difference in the world through my keyboard.
+             I am the founder of <a className='inline-link' href='https://sandlotpicks.com'>Sandlotpicks.com</a>, a machine-learning platform that predicts<br />
+              MLB batter and pitcher prop outcomes using historical game data, rolling metrics,<br />
+              and gradient-boosted models. I build the product end-to-end — from the Python/FastAPI<br />
+              prediction engine to the React frontend.
              </p>
-             <button className="bg-transparent"><a className='learn' href="#about">Learn about me </a></button>
-             <button  className="bg-transparent learn"><a id="blog" href="https://dev.to/cedsengine/building-a-qr-code-generator-onj">Latest blogs</a></button>
+             <button className="bg-transparent"><a className='learn' href="#projects">View Sandlotpicks </a></button>
+             <button  className="bg-transparent learn"><a id="blog" href="#contact">Get in touch</a></button>
         </main>
     </div>
   )
